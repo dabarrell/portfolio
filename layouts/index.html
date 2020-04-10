@@ -1,0 +1,8 @@
+{{ define "main" }}
+<p>Hello World!</p>
+{{ range first 10 .Site.RegularPages }}
+{{ if eq .Type "posts" }}
+<h2><a href="{{ .Permalink }}">{{ .Title }}{{.Kind}}</a></h2>
+{{ end }}
+{{ end }}
+{{ end }}

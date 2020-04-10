@@ -1,0 +1,9 @@
+{{ define "main" }}
+<section class="container centered">
+  <div class="error">
+    <h1>404</h1>
+    <h2>Page not found</h2>
+    <p>{{ i18n "page_does_not_exist" }}<br />{{ i18n "head_back" .Site.BaseURL | safeHTML }}</p>
+  </div>
+</section>
+{{ end }}

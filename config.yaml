@@ -1,8 +1,7 @@
 baseURL: "https://davidbarrell.me/"
-languageCode: "en-AU"
 title: "David Barrell"
-defaultcontentlanguage: "en-AU"
-metaDataFormat: "yaml"
+enableGitInfo: true
+# googleAnalytics: ""
 
 permalinks:
     posts: /:year/:month/:title/
@@ -11,64 +10,17 @@ menu:
     main:
     - identifier: about
       name: about
-      url: /about/
+      url: /
       weight: 1
     - name: projects
-      url: /projects/
+      url: /projects
       weight: 2
     - name: posts
-      url: /posts/
+      url: /posts
       weight: 3
-    - name: resume
-      url: /resume/
+    - name: engineering resume
+      url: /resume
       weight: 4
-    - name: contact
-      url: /contact/
+    - name: creative resume
+      url: /creative
       weight: 5
-
-# [params]
-#     author: "David Barrell"
-#     info: "Delivery Lead and Senior Engineer"
-#     description: "David Barrell's portfolio"
-#     keywords: "blog,developer,personal,portfolio"
-#     avatarurl: "images/avatar.jpg"
-
-#     favicon_32: "/img/favicon-32x32.png"
-#     favicon_16: "/img/favicon-16x16.png"
-
-#     footercontent: "Enter a text here."
-
-#     hidecredits: true
-#     hidecopyright: false
-
-#     rtl: false
-
-#     math: true
-#     custom_css: ["css/custom.css"]
-
-# # Social links
-# [[params.social]]
-#     name: "Github"
-#     icon: "fab fa-github fa-2x"
-#     weight: 1
-#     url: "https://github.com/johndoe/"
-# [[params.social]]
-#     name: "Gitlab"
-#     icon: "fab fa-gitlab fa-2x"
-#     weight: 2
-#     url: "https://gitlab.com/johndoe/"
-# [[params.social]]
-#     name: "Twitter"
-#     icon: "fab fa-twitter fa-2x"
-#     weight: 3
-#     url: "https://twitter.com/johndoe/"
-
-# # Menu links
-# [[menu.main]]
-#     name: "Blog"
-#     weight: 1
-#     url : "/posts/"
-# [[menu.main]]
-#     name: "About"
-#     weight: 2
-#     url: "/about/"

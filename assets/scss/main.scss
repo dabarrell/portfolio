@@ -1,5 +1,9 @@
-@import 'mixins';
-@import 'variables';
+// If you're reading this for some reason - I don't profess to have
+// amazing CSS skills, so you might want to avoid taking inspiration
+// from this...
+
+@import "mixins";
+@import "variables";
 
 html {
   font-size: 62.5%;
@@ -11,7 +15,7 @@ html {
 body {
   margin: 0;
   @include font-size(14);
-  font-family: $font-stack2;
+  font-family: $font-stack;
   @include line-height(20);
   color: $text-secondary;
   background-color: $body-background;
@@ -20,6 +24,7 @@ body {
 
 // Headers
 h1 {
+  margin-bottom: 15px;
   @include font-size(20);
   text-transform: lowercase;
   color: $text-primary;
@@ -30,17 +35,20 @@ h2 {
   color: $text-primary;
 }
 
-h1:after{
-    content: ' ';
-    padding: 0px;
-    padding-bottom: 10px;
-    display: block;
-    border-bottom: thin solid $text-primary;
-  }
+h1:after {
+  content: " ";
+  padding: 0px;
+  padding-bottom: 10px;
+  display: block;
+  border-bottom: thin solid $text-primary;
+}
 
 // Links
-a, a:hover, a:visited, a:active {
-  color: #333;
+a,
+a:hover,
+a:visited,
+a:active {
+  color: $text-primary;
   text-decoration: none;
 }
 
@@ -63,12 +71,47 @@ a img {
   top: 0;
   text-align: right;
 
-  ul {
-    list-style: none;
+  .headshot {
+    text-align: center;
+    padding-bottom: 10px;
 
-    // .active {
-    //   padding-right:10px;
-    // }
+    img {
+    object-fit: cover;
+    // @include border-radius(50%);
+    width: 100%;
+    }
+  }
+
+  .subtitle {
+    padding-bottom: 10px;
+  }
+
+  .menu {
+    padding-bottom: 10px;
+    ul {
+      list-style: none;
+
+      li {
+        text-transform: lowercase;
+      }
+  
+      .active {
+        font-weight: bolder;
+      }
+    }
+  }
+
+  .socials {
+    @include font-size(12);
+
+    li {
+      display: inline;
+    }
+
+    li:not(:last-child):after {
+      content: "//";
+      color: $text-secondary;
+    }
   }
 }
 
@@ -76,85 +119,116 @@ a img {
   padding-top: 30px;
 }
 
+.creative {
+  .item {
+    padding-top: 10px;
+    @include line-height(20);
+    @include font-size(12);
+    color: $text-secondary;
+    white-space: nowrap;
+
+    .item-title {
+      color: $text-primary;
+    }
+
+    .aux-info {
+      direction: rtl;
+
+      .show-name {
+        font-style: italic;
+        display: inline;
+      }
+    }
+  
+
+  }
+}
+
 .resume {
-  .resume-section {
+  .item {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    @include line-height(27);
+    @include font-size(14);
+    color: $text-secondary;
+    white-space: nowrap;
+
+    .aux-info {
+      @include font-size(12);
+    }
+
+    .info {
+      padding-top: 15px;
+    }
+
+    .logo {
+      @include border-radius(34px);
+      max-width: 67px;
+      max-height: 67px;
+      width: auto;
+      height: auto;
+      background: white;
+    }
+
+    .no-logo {
+      display: block;
+      @include border-radius(34px);
+      width: 67px;
+      height: 67px;
+      background: white;
+    }
+
+    .item-title {
+      @include font-size(16);
+      color: $text-primary;
+    }
+  }
+}
+
+.resume,
+.creative {
+  .section {
     padding-bottom: 50px;
 
-    .section-content {
-      padding-top: 30px;
-      padding-bottom: 30px;
-      @include line-height(27);
-      @include font-size(14);
-      color: $text-secondary;
-      white-space: nowrap;
+    .info {
+      white-space: normal;
+      @include font-size(12);
 
-      .aux-info {
-        @include font-size(12);
+      ul {
+        list-style: circle;
       }
 
-      .info {
-        padding-top: 15px;
-        white-space: normal;
-        @include font-size(12);
+      .slick-carousel {
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 40px;
 
-        ul {
-          list-style: circle;
+        img {
+          margin: auto;
+          height: 300px;
+          border: 10px;
         }
 
-        .slick-carousel {
-          text-align: center;
-          margin-top: 10px;
-          margin-bottom: 40px;
-
-          img {
-            margin: auto;
-            height: 300px;
-            border: 10px;
-          }
-
-          .slick-arrow::before {
-            color: $text-secondary;
-          }
-        }
-
-        .tech-list {
-          padding-top: 10px;
-          padding-left: 0px;
-
-          li {
-            @include font-size(9);
-            display: inline;
-            padding: 8px;
-            padding-right: 10px;
-            padding-left: 10px;
-            margin-right: 15px;
-            @include border-radius(20px);
-            border: thin solid $tech-border-colour;
-            text-transform: uppercase;
-          }
+        .slick-arrow::before {
+          color: $text-secondary;
         }
       }
 
-      .logo {
-        @include border-radius(34px);
-        max-width: 67px;
-        max-height: 67px;
-        width: auto;
-        height: auto;
-        background: white;
-      }
+      .tech-list {
+        padding-top: 10px;
+        padding-left: 0px;
 
-      .no-logo {
-        display: block;
-        @include border-radius(34px);
-        width: 67px;
-        height: 67px;
-        background: white;
-      }
-
-      .item-title {
-        @include font-size(16);
-        color: $text-primary;
+        li {
+          @include font-size(9);
+          display: inline;
+          padding: 8px;
+          padding-right: 10px;
+          padding-left: 10px;
+          margin-right: 15px;
+          @include border-radius(20px);
+          border: thin solid $tech-border-colour;
+          text-transform: uppercase;
+        }
       }
     }
   }

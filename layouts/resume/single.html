@@ -1,17 +1,17 @@
 {{ define "main" }}
 <div class="resume">
-    {{ range $.Site.Data.resume.resumeSections }}
-    <div id="{{.id}}" class="resume-section section">
+    {{ range $.Site.Data.resume.sections }}
+    <div id="{{.id}}" class="section">
         <div class="row text-left">
-            <div class="col-12 section-title">
+            <div class="col-12">
                 <h1>
                     {{.title}}
                 </h1>
             </div>
         </div>
 
-        {{ range .item }}
-        <div class="section-content">
+        {{ range .items }}
+        <div class="item">
             <div class="row">
                 <div class="col-auto">
                     {{ if .logoUrl }}
@@ -20,7 +20,7 @@
                     <span class="no-logo"></span>
                     {{ end }}
                 </div>
-                <div class="col-5 text-left titles">
+                <div class="col-5 text-left">
                     <p>
                         <span class="item-title">{{ .title }}</span>
                         {{ if .subtitle }}

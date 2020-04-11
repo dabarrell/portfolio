@@ -1,0 +1,47 @@
+{{ define "main" }}
+<div class="creative">
+    {{ range $.Site.Data.creative.sections }}
+    <div id="{{.id}}" class="section">
+        <div class="row text-left">
+            <div class="col-12">
+                <h1>
+                    {{.title}}
+                </h1>
+            </div>
+        </div>
+
+        {{ range .items }}
+        <div class="item">
+            <div class="row">
+                <div class="col-2 text-right">
+                    {{ .year }}
+                </div>
+                <div class="col-5 text-left">
+                    <p>
+                        <span class="item-title">{{ .title }}</span>
+                    </p>
+                </div>
+                <div class="col-5 text-right ml-auto aux-info">
+                    <p>
+                        {{ if .show }}
+                        <span class="show-name">{{ .show }}</span>,
+                        {{ end }}
+                        {{ .organisation }}
+                    </p>
+                </div>
+            </div>
+            {{ if .info }}
+            <div class="row info">
+                <div class="offset-2 col-10 text-justify">
+                    <p>
+                        {{ .info | safeHTML }}
+                    </p>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+        {{ end }}
+    </div>
+    {{ end }}
+</div>
+{{ end }}

@@ -1,5 +1,10 @@
 {{ define "main" }}
-<p>Hello World!</p>
+<h1>about</h1>
+<div class="row">
+    <div class="col-12">
+        {{ .Content }}
+    </div>
+</div>
 {{ range first 10 .Site.RegularPages }}
 {{ if eq .Type "posts" }}
 <h2><a href="{{ .Permalink }}">{{ .Title }}{{.Kind}}</a></h2>

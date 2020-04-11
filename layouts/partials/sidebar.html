@@ -1,32 +1,26 @@
-{{/*  Sidebar  */}}
-David Barrell
+<div class="row sidebar">
+    <div class="col-12">
+    <a href="{{ .Site.BaseURL }}"><h1>David Barrell</h1></a>
 
-<aside>
     <ul>
         {{ $currentPage := . }}
         {{ range .Site.Menus.main }}
-            {{ if .HasChildren }}
-                <li class="{{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }}">
-                    <a href="#">
-                        {{ .Pre }}
-                        <span>{{ .Name }}</span>
-                    </a>
-                </li>
-                <ul class="sub-menu">
-                    {{ range .Children }}
-                        <li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
-                            <a href="{{ .URL }}">{{ .Name }}</a>
-                        </li>
-                    {{ end }}
-                </ul>
-            {{ else }}
-                <li>
-                    <a href="{{ .URL }}">
-                        {{ .Pre }}
-                        <span>{{ .Name }}</span>
-                    </a>
-                </li>
-            {{ end }}
+        {{/*  {{ if $currentPage.IsMenuCurrent "main" . }}
+        <li class='active'>
+            <a href="#">
+                {{ .Pre }}
+                <span>{{ .Name }}</span>
+            </a>
+        </li>
+        {{ else }}  */}}
+        <li>
+            <a href="{{ .URL }}">
+                {{ .Pre }}
+                <span>{{ .Name }}</span>
+            </a>
+        </li>
+        {{/*  {{ end }}  */}}
         {{ end }}
     </ul>
-</aside>
+</div>
+</div>

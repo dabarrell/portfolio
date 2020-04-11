@@ -5,6 +5,8 @@ html {
   font-size: 62.5%;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
+  overflow-y: scroll;
+
 }
 
 body {
@@ -12,11 +14,32 @@ body {
   @include font-size(14);
   font-family: $font-stack2;
   @include line-height(20);
-  color: $body-text;
+  color: $text-secondary;
   background-color: $body-background;
   -webkit-font-smoothing: antialiased;
 }
 
+// Headers
+h1 {
+  @include font-size(20);
+  text-transform: lowercase;
+  color: $text-primary;
+}
+
+h2 {
+  @include font-size(16);
+  color: $text-primary;
+}
+
+h1:after{
+    content: ' ';
+    padding: 0px;
+    padding-bottom: 10px;
+    display: block;
+    border-bottom: thin solid $text-primary;
+  }
+
+// Links
 a, a:hover, a:visited, a:active {
   color: #333;
   text-decoration: none;
@@ -35,37 +58,36 @@ a img {
 }
 
 .sidebar {
+  padding-top: 30px;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
+  text-align: right;
 
-  padding: 0 15px;
+  ul {
+    list-style: none;
+
+    // .active {
+    //   padding-right:10px;
+    // }
+  }
+}
+
+.main {
+  padding-top: 30px;
 }
 
 .resume {
-  color: $resume-text;
-
   .resume-section {
     padding-bottom: 50px;
-
-    .section-title {
-      @include font-size(20);
-      border-bottom: thin solid $resume-text;
-      padding: 0px;
-      padding-bottom: 10px;
-    }
 
     .section-content {
       padding-top: 30px;
       padding-bottom: 30px;
       @include line-height(27);
       @include font-size(14);
-      color: $resume-info-text;
+      color: $text-secondary;
       white-space: nowrap;
-
-      div {
-        padding: 0px;
-      }
 
       .aux-info {
         @include font-size(12);
@@ -92,7 +114,7 @@ a img {
           }
 
           .slick-arrow::before {
-            color: $resume-info-text;
+            color: $text-secondary;
           }
         }
 
@@ -106,18 +128,15 @@ a img {
             padding: 8px;
             padding-right: 10px;
             padding-left: 10px;
-            margin-right: 10px;
+            margin-right: 15px;
             @include border-radius(20px);
             border: thin solid $tech-border-colour;
             text-transform: uppercase;
           }
         }
-
-
       }
 
       .logo {
-        margin-right: 20px;
         @include border-radius(34px);
         max-width: 67px;
         max-height: 67px;
@@ -126,9 +145,17 @@ a img {
         background: white;
       }
 
-      .degree {
+      .no-logo {
+        display: block;
+        @include border-radius(34px);
+        width: 67px;
+        height: 67px;
+        background: white;
+      }
+
+      .item-title {
         @include font-size(16);
-        color: $resume-text;
+        color: $text-primary;
       }
     }
   }

@@ -4,30 +4,32 @@
     <div id="{{.id}}" class="resume-section section">
         <div class="row text-left">
             <div class="col-12 section-title">
-                <p>
+                <h1>
                     {{.title}}
-                </p>
+                </h1>
             </div>
         </div>
 
         {{ range .item }}
         <div class="section-content">
             <div class="row">
-                <div class="col-2 text-center">
+                <div class="col-auto">
                     {{ if .logoUrl }}
                     <img class="logo" src="{{ .logoUrl }}" alt="Logo">
+                    {{ else }}
+                    <span class="no-logo"></span>
                     {{ end }}
                 </div>
                 <div class="col-5 text-left titles">
                     <p>
-                        <span class="degree">{{ .title }}</span>
+                        <span class="item-title">{{ .title }}</span>
                         {{ if .subtitle }}
                         <br />
                         {{ .subtitle }}
                         {{ end }}
                     </p>
                 </div>
-                <div class="col-5 text-right aux-info">
+                <div class="col-5 text-right ml-auto aux-info">
                     <p>
                         {{ .dates }}
                         {{ if .location }}

@@ -1,0 +1,74 @@
+{{ define "main" }}
+<div class="resume">
+    {{ range $.Site.Data.resume.resumeSections }}
+    <div id="{{.id}}" class="resume-section section">
+        <div class="row text-left">
+            <div class="col-md-6 col-xs-8 col-md-offset-3 col-xs-offset-2 section-title">
+                <p>
+                    {{.title}}
+                </p>
+            </div>
+        </div>
+
+        {{ range .item }}
+        <div class="section-content">
+            <div class="row">
+                <div class="col-md-3 col-xs-2 text-right">
+                    {{ if .logoUrl }}
+                    <img class="logo" src="{{ .logoUrl }}" alt="Logo">
+                    {{ end }}
+                </div>
+                <div class="col-md-3 col-s-4 col-xs-8 text-left titles">
+                    <p>
+                        <span class="degree">{{ .title }}</span>
+                        {{ if .subtitle }}
+                        <br />
+                        {{ .subtitle }}
+                        {{ end }}
+                    </p>
+                </div>
+                <div class="col-md-3 col-s-4 col-xs-8 col-md-offset-0 col-xs-offset-2 text-right aux-info">
+                    <p>
+                        {{ .dates }}
+                        {{ if .location }}
+                        <br />
+                        {{ .location }}
+                        {{ end }}
+                    </p>
+                </div>
+            </div>
+            {{ if .info }}
+            <div class="row info">
+                <div class="col-md-6 col-xs-8 col-md-offset-3 col-xs-offset-2 text-justify">
+                    {{ if .info.images}}
+                    <div class="slick-carousel">
+                        {{ range .info.images }}
+                        <div>
+                            <img src="{{ . }}">
+                        </div>
+                        {{ end }}
+                    </div>
+                    {{ end }}
+                    {{ if .info.text }}
+                    <p>
+                        {{ .info.text | safeHTML }}
+                    </p>
+                    {{ end }}
+                    {{ if .info.tech }}
+                    <ul class="tech-list">
+                        {{ range .info.tech }}
+                        <li>
+                            {{ . }}
+                        </li>
+                        {{ end }}
+                    </ul>
+                    {{ end }}
+                </div>
+            </div>
+            {{ end }}
+        </div>
+        {{ end }}
+    </div>
+    {{ end }}
+</div>
+{{ end }}

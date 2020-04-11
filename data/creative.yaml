@@ -1,0 +1,208 @@
+creative:
+  about:
+    title: creative resume
+    text: |-
+      Outside of work hours, I spend much of my time playing music and in the theatre. Listed
+      below is a selection of my creative and theatrical experience.
+  section:
+    - title: accreditation and awards
+      id: accreditation
+      items:
+        - title: Most Outstanding Musical Director/Band (UHT Awards)
+          show: The Drowsy Chaperone
+          year: 2018
+          organisation: UMMTA
+        - title: MD Professional Development Workshop
+          year: 2017
+          organisation: ABODA
+        - title: Diploma in Music (Practical)
+          year: 2012-14
+          organisation: The University of Melbourne
+        - title: A.Mus.A. (Bassoon)
+          year: 2011
+          organisation: AMEB
+    - title: musical direction
+      id: musical-direction
+      items:
+        - title: Musical Director
+          year: 2020
+          show: Little Shop of Horrors
+          organisation: RMIT
+        - title: Musical Director
+          year: 2019
+          show: Spring Awakening
+          organisation: RMIT
+        - title: Music Supervisor/Conductor
+          year: 2018
+          show: The Sitzprobe
+          organisation: UMMTA
+        - title: Musical Director
+          year: 2018
+          show: The Drowsy Chaperone
+          organisation: UMMTA
+        - title: Assistant Musical Director
+          year: 2017
+          show: Heathers
+          organisation: UMMTA
+        - title: Conductor/Orchestrator
+          year: 2017
+          show: The Sitzprobe
+          organisation: UMMTA
+        - title: Musical Director
+          year: 2014
+          show: Little Show of Horrors
+          organisation: ICAC
+        - title: Musical Director
+          year: 2014
+          show: Sunset Boulevard
+          organisation: Ormond College
+        - title: Musical Director
+          year: 2012
+          show: Spring Awakening
+          organisation: Ormond College
+        - title: Conductor
+          year: 2011
+          organisation: Scotch College Orchestra
+    - title: choral
+      id: choral
+      items:
+        - title: Choral Director
+          year: 2014-15
+          organisation: Ormond Choir
+        - title: Vocalist
+          year: 2012-14
+          organisation: Concordis Chamber Choir
+        - title: Vocalist
+          year: 2011
+          organisation: The Cardinals
+        - title: Vocalist
+          year: 2008-11
+          organisation: Scotch College Chamber Choir
+    - title: instrumental
+      id: instrumental
+      items:
+        - title: Reed (Bassoon)
+          year: 2018
+          show: Into the Woods
+          organisation: ICAC
+        - title: Reed (Oboe, Clarinet, Alto Sax, Bari Sax)
+          year: 2018
+          show: Heathers
+          organisation: UMMTA
+        - title: Reed (Bassoon, Clarinet, Alto Sax)
+          year: 2018
+          show: Assassins
+          organisation: Ormond College
+        - title: Reed (Bassoon, Clarinet, Alto Sax)
+          year: 2018
+          show: Company
+          organisation: ICAC
+        - title: Alto Sax
+          year: 2013-17
+          organisation: Ormond Big Band
+        - title: (Principal) Bassoon
+          year: 2012-14
+          organisation: The University of Melbourne Orchestra
+        - title: Reed (Bassoon)
+          year: 2012
+          show: Anything Goes
+          organisation: ICAC
+        - title: Bassoon
+          year: 2011
+          organisation: Pro Musica Chamber Orchestra
+        - title: Reed (Bassoon)
+          year: 2010
+          show: Sound of Music
+          organisation: Scotch College
+        - title: Bassoon
+          year: 2010
+          organisation: Australian Ballet Conservatoire Orchestra
+        - title: Reed (Bassoon)
+          year: 2009
+          show: West Side Story
+          organisation: Scotch College
+        - title: Reed (Bassoon)
+          year: 2008
+          show: Into the Woods
+          organisation: Scotch College
+    - title: technical
+      id: technical
+      items:
+        - title: Stage Manager
+          year: 2019
+          show: Miss Saigon
+          organisation: OSMaD
+        - title: Assistant Stage Manager
+          year: 2018
+          show: Les Misérables
+          organisation: OSMaD
+        - title: Technical Director
+          year: 2018
+          show: The Witches of Eastwick
+          organisation: UMMTA
+        - title: Theatre Technician
+          year: 2018-Present
+          organisation: Union House Theatre
+        - title: Set Construction Manager
+          year: 2017
+          show: Heathers
+          organisation: UMMTA
+        - title: Sound Designer
+          year: 2017
+          show: The Coven
+          organisation: Ringtail Theatre
+        - title: Technical Director
+          year: 2017
+          show: 10 Out Of 12
+          organisation: Ormond College
+        - title: Technical Director
+          year: 2016
+          show: Assassins
+          organisation: Ormond College
+        - title: Set Construction
+          year: 2015
+          show: Joseph K
+          organisation: Ormond College
+        - title: AV Coordinator
+          year: 2014-15
+          organisation: Ormond College
+        - title: Technical Director
+          year: 2013
+          show: The Rocky Horror Picture Show
+          organisation: Ormond College
+        - title: Head of Lighting and Sound
+          year: 2013
+          organisation: Ormond College
+        - title: Stage Manager
+          year: 2013
+          show: Metamorphoses
+          organisation: Ormond College
+        - title: Technical Director
+          year: 2012
+          show: After Liverpool
+          organisation: Ormond College
+    - title: other
+      id: other
+      items:
+        - title: Secretary
+          year: 2019-20
+          organisation: OSMaD
+        - title: Producer
+          year: 2015
+          organisation: Ormond Ball
+        - title: Director
+          year: 2015
+          show: Ormond Shorts
+          organisation: Ormond College
+        - title: Producer
+          year: 2014
+          show: Ormond Shorts
+          organisation: Ormond College
+        - title: Director
+          year: 2014
+          show: Ormond Shorts
+          organisation: Ormond College
+        - title: Cast (Grand Mikado)
+          year: 2011
+          show: The Mikado
+          organisation: Scotch College

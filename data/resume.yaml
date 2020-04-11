@@ -1,0 +1,187 @@
+resumeSections:
+  - title: work experience
+    id: work-experience
+    item:
+      - logoUrl: img/ca-logo.png
+        title: Team Lead/Machine Learning Engineer
+        subtitle: Culture Amp
+        dates: Jun 2018 - Present
+        location: Melbourne, AUS
+        info:
+          text: |-
+            I started off working on the Collective Intelligence team to draw out insights
+            from the results of our customer's surveys, to help those customers collect,
+            share and act on employee feedback. This included a responsibility for deploying
+            theoretical algorithms and frameworks developed by Data Scientists into
+            production-quality and operational code, and for designing and delivering
+            machine learning components of our product.<br /><br />
+            As of early 2019, I have been Team Lead of the Comments team, responsible for all
+            analytics and reporting related to comments left in the Culture Amp platform. As
+            part of the team, I've contributed to the development of numerous new features,
+            including comment clustering and automatic comment translation, alongside managing
+            the team's infrastructure.
+          tech:
+            [
+              "python",
+              "elixir",
+              "kotlin",
+              "aws",
+              "cdk",
+              "event sourcing",
+              "microservices",
+            ]
+      - logoUrl: img/uom-logo.jpg
+        title: Software Developer
+        subtitle: Health and Biomedical Informatics Centre
+        dates: Jul 2015 - May 2018
+        location: Melbourne, AUS
+        info:
+          text: |-
+            Worked on the development of GRHANITE, focused on the extraction of primary
+            care data in an ethical and privacy-sensitive manner, for the purpose of research.<br /><br />
+            Undertook major rewrite of client-side codebase, released interfaces for new
+            clinical management systems, and developed custom technical support tools.<br /><br />
+            Oversaw Git usage and created organisation’s build servers and processes.
+          tech: ["c#", "python", "ms sql", "git", "jira"]
+      - logoUrl: img/capgemini-logo.png
+        title: Senior Consultant (Contractor)
+        subtitle: Capgemini
+        dates: Jan 2018
+        location: Melbourne, AUS
+        info:
+          text: |-
+            Contracted to provide advice and assistance in effectively deploying a
+            Python application to Heroku and AWS.
+          tech: ["heroku", "aws"]
+      - logoUrl: img/teenyco-logo.jpg
+        title: Co-Founder & CTO
+        subtitle: Teenyco
+        dates: Jul 2016 - Feb 2017
+        location: Melbourne, AUS
+        info:
+          text: |-
+            Teenyco aims to improve ultrasound diagnostics in pregnancies, as well as
+            foster an increased connection between parent and unborn child. Through
+            various visualisation and digital fabrication techniques, we are able to
+            provide parents with a new way to connect with their babies. These methods
+            include extrapolating meshes from 2D ultrasound images, allowing us to
+            3D print tangible models.<br /><br />
+            Access to the anonymised data obtained through this process also allows
+            us to investigate how machine learning can be used to pick up and point
+            out potential anomalies to radiologists, reducing the high rate of ultrasound
+            anomalies that currently go undetected.<br /><br />
+            Teenyco won the $10,000 CMB Capital 'Best Startup' award at the Wade
+            Institute's Final Pitch Night, as chosen by a panel including venture
+            capitalists and established entrepreneurs.
+          tech: ["3d printing", "digital fabrication"]
+      - logoUrl: img/tbc-logo.jpg
+        title: Software Developer
+        subtitle: The Baby Club
+        dates: Oct 2016 - March 2017
+        location: Melbourne, AUS
+        info:
+          text: |-
+            Developing The Baby Club's eCommerce website and back-end, with a focus
+            on Stripe API integration, handling single payments, as well as a
+            custom lay-by implementation.
+          tech: ["django", "aws", "docker", "js", "stripe", "git", "python"]
+      - logoUrl: img/tuteme-logo.png
+        title: Co-Founder & CTO
+        subtitle: TuteMe
+        dates: Jan 2016 - Dec 2016
+        location: Melbourne, AUS
+        info:
+          text: |-
+            Developed a tutoring marketplace platform from the ground up. University
+            students and tutors are able to use the Android and iOS apps to request
+            tutorials, and respond to requests. Once connected, the app helps them
+            meet up, and handles reviewing and payments (through the Stripe API) once
+            the tutorial is completed.
+          tech: ["robovm", "java", "obj-c", "sketch", "nodejs", "git"]
+      - logoUrl: img/oc-logo.jpg
+        title: Software / Web Developer
+        subtitle: Ormond College
+        dates: Jan 2015 - Dec 2015
+        location: Melbourne, AUS
+        info:
+          text: |-
+            Developed internal portal used daily by over 600 staff and students,
+            for administrative tasks and college news. Published iOS and Android
+            apps providing a mobile experience for the portal, built on PhoneGap.
+          tech: ["wordpress", "php", "phonegap"]
+      - logoUrl: img/oc-logo.jpg
+        title: AV Coordinator
+        subtitle: Ormond College
+        dates: Feb 2013 - Dec 2014
+        location: Melbourne, AUS
+        info:
+          text: |-
+            Liaised with external groups and internal event organisers regarding
+            AV requirements. Handled set up and operation of AV equipment for events
+            held at the College.
+  - title: education
+    id: education
+    item:
+      - logoUrl: img/uom-logo.jpg
+        title: Master of Engineering (Software)
+        subtitle: University of Melbourne
+        dates: 2016 - Present
+        location: Melbourne, AUS
+        info:
+        text: |-
+          High Distinction (First Class Honours) average, with subjects including Cluster and Cloud Computing,
+          Artificial Intelligence, Distributed Systems, and Declarative Programming.
+      - logoUrl: img/uom-logo.jpg
+        title: Bachelor of Science (Electrical Systems)
+        subtitle: University of Melbourne
+        dates: 2012 - 2015
+        location: Melbourne, AUS
+      - logoUrl: img/uom-logo.jpg
+        title: Diploma in Music (Practical)
+        subtitle: University of Melbourne
+        dates: 2012 - 2015
+        location: Melbourne, AUS
+        info:
+        text: |-
+          Majoring in bassoon, with experience on piano, saxophones, clarinet,
+          oboe and guitar, and in voice.
+          <ul>
+          <li>Principal Bassoon, University of Melbourne Orchestra</li>
+          <li>Choral Director, Ormond College Choir</li>
+          <li>Musical Director, Ormond College Drama Club</li>
+          </ul>
+  - title: leadership
+    id: leadership
+    item:
+      - logoUrl: img/oc-logo.jpg
+        title: Chair
+        subtitle: Ormond College
+        dates: 2017
+        location: Melbourne, AUS
+        info:
+        text: |-
+          Elected executive of the graduate student body at Ormond College. Along with a team
+          of 5, I represented the interests and welfare of 100 postgraduate students, and was
+          responsible for managing a $50,000 budget, contributing to college-wide operations,
+          and advising on decisions and strategy affecting community and long-term culture.
+      - title: Mentor
+        subtitle: SuperHack
+        dates: 2017
+        location: Melbourne, AUS
+        info:
+        text: |-
+          Mentored a team of high school students in a hackathon aimed at providing young girls
+          with exposure to engineering careers. Created an IoT pill dispenser designed to improve
+          adherence to drug regimens, placing second in the competition.
+      - title: Musical Director / Technical Director
+        subtitle: Various theatre companies
+        dates: 2012 - 2017
+        location: Melbourne, AUS
+        info:
+        text: |-
+          In these positions, I have worked with the cast and crew of over a dozen productions,
+          developing my leadership and interpersonal skills, as well as my ability to navigate
+          complex issues in a team. The diverse interests and individuals involved in artistic
+          teams often create difficult scenarios, which require careful leadership and creative
+          solutions. I have found the skills these experiences have given me complement my
+          technical leadership well.

@@ -43,11 +43,10 @@ a img {
 }
 
 .resume {
-  padding-bottom: 150px;
   color: $resume-text;
 
   .resume-section {
-    padding-top: 150px;
+    padding-bottom: 50px;
 
     .section-title {
       @include font-size(20);

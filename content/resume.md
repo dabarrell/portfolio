@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 date: 2020-04-10T14:53:43+10:00
 title: "Resume"
 type: resume

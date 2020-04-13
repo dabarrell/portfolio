@@ -35,6 +35,11 @@ h2 {
   color: $text-primary;
 }
 
+p {
+  @include font-size(12);
+  color: $text-secondary;
+}
+
 h1:after {
   content: " ";
   padding: 0px;
@@ -146,20 +151,9 @@ a img {
 
 .resume {
   .item {
-    padding-top: 30px;
     padding-bottom: 30px;
-    @include line-height(27);
-    @include font-size(14);
     color: $text-secondary;
     white-space: nowrap;
-
-    .aux-info {
-      @include font-size(12);
-    }
-
-    .info {
-      padding-top: 15px;
-    }
 
     .logo {
       @include border-radius(34px);
@@ -178,9 +172,17 @@ a img {
       background: white;
     }
 
-    .item-title {
-      @include font-size(16);
-      color: $text-primary;
+    .aux-info {
+      @include line-height(27);
+    }
+
+    .titles {
+      @include line-height(27);
+
+      .item-title {
+        @include font-size(16);
+        color: $text-primary;
+      }
     }
   }
 }
@@ -192,9 +194,9 @@ a img {
 
     .info {
       white-space: normal;
-      @include font-size(12);
 
       ul {
+        @include font-size(12);
         list-style: circle;
       }
 

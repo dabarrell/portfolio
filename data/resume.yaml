@@ -3,9 +3,36 @@ sections:
     id: work-experience
     items:
       - logoUrl: img/ca-logo.png
+        title: Delivery Lead/Senior Engineer
+        subtitle: Culture Amp
+        dates: Mar 2020 - Present
+        location: Melbourne, AUS
+        info:
+          text: |-
+            In early 2020, I was promoted to Senior Engineer, alongside responsibilities as
+            a Delivery Lead. As a product organisation, we have explored and adapted the Shape
+            Up methodology to suit our company. As a Delivery Lead working within this methodology,
+            I coordinate a team of engineers to see a 'shaped' idea through from pitch to delivery.
+            <br /><br />
+            I also continue to contribute to the Site Reliability Engineering practice, including
+            internal infrastructure tooling and a construct library built with AWS's Cloud Development
+            Kit (CDK).
+          tech:
+            [
+              "python",
+              "elixir",
+              "kotlin",
+              "ruby",
+              "aws",
+              "cdk",
+              "sre",
+              "event sourcing",
+              "microservices",
+            ]
+      - logoUrl: img/ca-logo.png
         title: Team Lead/Machine Learning Engineer
         subtitle: Culture Amp
-        dates: Jun 2018 - Present
+        dates: Jun 2018 - Feb 2020
         location: Melbourne, AUS
         info:
           text: |-
@@ -14,19 +41,22 @@ sections:
             share and act on employee feedback. This included a responsibility for deploying
             theoretical algorithms and frameworks developed by Data Scientists into
             production-quality and operational code, and for designing and delivering
-            machine learning components of our product.<br /><br />
-            As of early 2019, I have been Team Lead of the Comments team, responsible for all
-            analytics and reporting related to comments left in the Culture Amp platform. As
-            part of the team, I've contributed to the development of numerous new features,
-            including comment clustering and automatic comment translation, alongside managing
-            the team's infrastructure.
+            machine learning components of our product.
+            <br /><br />
+            From early 2019, I was Team Lead of the Comments team, responsible for all
+            analytics and reporting related to comments left in the Culture Amp platform. In
+            addition to leading a team of six, I contributed to the development of numerous
+            new features, including comment clustering and automatic comment translation. I
+            was also responsible for the infrastructure of the team's services.
           tech:
             [
               "python",
               "elixir",
               "kotlin",
+              "ruby",
               "aws",
               "cdk",
+              "sre",
               "event sourcing",
               "microservices",
             ]
@@ -37,12 +67,14 @@ sections:
         location: Melbourne, AUS
         info:
           text: |-
-            Worked on the development of GRHANITE, focused on the extraction of primary
-            care data in an ethical and privacy-sensitive manner, for the purpose of research.<br /><br />
-            Undertook major rewrite of client-side codebase, released interfaces for new
-            clinical management systems, and developed custom technical support tools.<br /><br />
-            Oversaw Git usage and created organisation’s build servers and processes.
-          tech: ["c#", "python", "ms sql", "git", "jira"]
+            Within HaBIC, I worked on the development of GRHANITE, a tool built for the extraction of primary
+            care data in an ethical and privacy-sensitive manner, for the purpose of research.
+            <br /><br />
+            I undertook a major rewrite of the client-side codebase, released interfaces for new
+            clinical management systems, and developed custom technical support tools.
+            <br /><br />
+            I administered the team's Git, and created the organisation's build servers and processes.
+          tech: ["c#", "python", "ms sql", "git", "jira", "ci/cd"]
       - logoUrl: img/capgemini-logo.png
         title: Senior Consultant (Contractor)
         subtitle: Capgemini

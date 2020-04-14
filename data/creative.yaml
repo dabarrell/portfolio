@@ -1,6 +1,9 @@
 sections:
+  - title: about
+    description: |-
+      Outside of work hours, I spend much of my time playing music and in the theatre. Listed
+      below is a selection of my creative and theatrical experience.
   - title: accreditation
-    id: accreditation
     items:
       - title: MD Professional Development Workshop
         year: 2017
@@ -13,7 +16,6 @@ sections:
         year: 2011
         organisation: AMEB
   - title: musical direction
-    id: musical-direction
     items:
       - title: Musical Director
         year: 2020
@@ -60,7 +62,6 @@ sections:
         year: 2011
         organisation: Scotch College Orchestra
   - title: technical
-    id: technical
     items:
       - title: Stage Manager
         year: 2020
@@ -129,7 +130,6 @@ sections:
         show: After Liverpool
         organisation: Ormond College
   - title: instrumental
-    id: instrumental
     items:
       - title: Bassoon
         year: 2018
@@ -176,7 +176,6 @@ sections:
         show: Into the Woods
         organisation: Scotch College
   - title: choral
-    id: choral
     items:
       - title: Choral Director
         year: 2014-15
@@ -191,7 +190,6 @@ sections:
         year: 2008-11
         organisation: Scotch College Chamber Choir
   - title: other
-    id: other
     items:
       - title: Secretary
         year: 2019-20

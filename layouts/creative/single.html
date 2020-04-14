@@ -1,14 +1,24 @@
 {{ define "main" }}
 <div class="creative">
     {{ range $.Site.Data.creative.sections }}
-    <div id="{{.id}}" class="section">
+    <div id='{{ replace .title " " "-" | lower }}' class="section">
         <div class="row text-left">
             <div class="col-12">
                 <h1>
-                    {{.title}}
+                    {{ .title }}
                 </h1>
             </div>
         </div>
+
+        {{ if .description }}
+        <div class="row text-left">
+            <div class="col-12">
+                <p>
+                    {{ .description | safeHTML }}
+                </p>
+            </div>
+        </div>
+        {{ end }}
 
         {{ range .items }}
         <div class="item">

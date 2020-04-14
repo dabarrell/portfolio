@@ -1,7 +1,7 @@
 {{ define "main" }}
 <div class="resume">
     {{ range $.Site.Data.resume.sections }}
-    <div id="{{.id}}" class="section">
+    <div id='{{ replace .title " " "-" | lower }}' class="section">
         <div class="row text-left">
             <div class="col-12">
                 <h1>

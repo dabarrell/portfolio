@@ -1,53 +1,68 @@
-<div class="row sidebar">
-    <div class="col-12">
-        <a href="{{ .Site.BaseURL }}">
-            <h1>David Barrell</h1>
-        </a>
+<div class="sidebar">
+    <div class="row">
+        <div class="col-12">
+            <a href="{{ .Site.BaseURL }}">
+                <h1>David Barrell</h1>
+            </a>
+        </div>
+    </div>
 
-        <div class="d-none d-lg-block headshot">
-            <img src="img/headshot.png" alt="Headshot" />
+    <div class="row">
+        <div class="col-12 d-none d-lg-block">
+            <div class="headshot">
+                <img src="img/headshot.png" alt="Headshot" />
+            </div>
         </div>
-        <div class="subtitle">
-            <p>delivery lead, senior software engineer, musical director and theatre technician</p>
+    </div>
+    <div class="row">
+        <div class="col-6 d-block d-lg-none">
+            <div class="headshot">
+                <img src="img/headshot.png" alt="Headshot" />
+            </div>
         </div>
-        <div class="menu">
-            <ul>
-                {{ $currentPage := . }}
-                {{ range .Site.Menus.main }}
+        <div class="col-6 col-lg-12">
+            <div class="subtitle">
+                <p>delivery lead, senior software engineer, musical director and theatre technician</p>
+            </div>
+            <div class="menu">
+                <ul>
+                    {{ $currentPage := . }}
+                    {{ range .Site.Menus.main }}
                     {{ $linkedPage := ($.Site.GetPage .URL)}}
-                    {{/*  {{ if $currentPage.IsMenuCurrent "main" . }}  */}}
+                    {{/*  {{ if $currentPage.IsMenuCurrent "main" . }} */}}
                     {{ if eq $linkedPage $currentPage }}
-                        <li class='active'>
-                            <a href="javascript:;">
-                                {{ .Pre }}
-                                <span>{{ .Name }}</span>
-                            </a>
-                        </li>
+                    <li class='active'>
+                        <a href="javascript:;">
+                            {{ .Pre }}
+                            <span>{{ .Name }}</span>
+                        </a>
+                    </li>
                     {{ else }}
-                        {{ if and (not $linkedPage.Draft) (ne $linkedPage.String "nopPage") }}
-                        <li>
-                            <a href="{{ .URL }}">
-                                {{ .Pre }}
-                                <span>{{ .Name }}</span>
-                            </a>
-                        </li>
-                        {{ end }}
+                    {{ if and (not $linkedPage.Draft) (ne $linkedPage.String "nopPage") }}
+                    <li>
+                        <a href="{{ .URL }}">
+                            {{ .Pre }}
+                            <span>{{ .Name }}</span>
+                        </a>
+                    </li>
                     {{ end }}
-                {{ end }}
-            </ul>
-        </div>
-        <div class="socials">
-            <ul>
-                <li>
-                    <a href="https://github.com/dabarrell" target="_blank">GitHub</a>
-                </li>
-                <li>
-                    <a href="https://linkedin.com/in/dabarrell" target="_blank">LinkedIn</a>
-                </li>
-                <li>
-                    <a href="mailto:david@barrell.me" target="_blank">Email</a>
-                </li>
-            </ul>
+                    {{ end }}
+                    {{ end }}
+                </ul>
+            </div>
+            <div class="socials">
+                <ul>
+                    <li>
+                        <a href="https://github.com/dabarrell" target="_blank">GitHub</a>
+                    </li>
+                    <li>
+                        <a href="https://linkedin.com/in/dabarrell" target="_blank">LinkedIn</a>
+                    </li>
+                    <li>
+                        <a href="mailto:david@barrell.me" target="_blank">Email</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
 </div>

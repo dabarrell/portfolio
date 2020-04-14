@@ -5,8 +5,23 @@
 @import "mixins";
 @import "variables";
 
+$screen-sm-min: 576px;
+$screen-xs-max: ($screen-sm-min - 1);
+
+// TODO: This is messy af
+@media (max-width: $screen-xs-max) {
+  html {
+    font-size: 38%;
+  }
+}
+
+@media (min-width: $screen-sm-min) {
+  html {
+    font-size: 62.5%;
+  }
+}
+
 html {
-  font-size: 62.5%;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   overflow-y: scroll;
@@ -124,7 +139,7 @@ a img {
   }
 
   .socials {
-    @include font-size(12);
+    @include font-size(10);
 
     li {
       display: inline;

@@ -13,9 +13,11 @@
         {{ if .description }}
         <div class="row text-left">
             <div class="col-12">
+                {{ range (split .description "+++") }}
                 <p>
-                    {{ .description | safeHTML }}
+                    {{ . | safeHTML }}
                 </p>
+                {{ end }}
             </div>
         </div>
         {{ end }}
@@ -43,9 +45,11 @@
             {{ if .info }}
             <div class="row info">
                 <div class="offset-2 col-10 text-justify">
+                    {{ range (split .info "+++") }}
                     <p>
-                        {{ .info | safeHTML }}
+                        {{ . | safeHTML }}
                     </p>
+                    {{ end }}
                 </div>
             </div>
             {{ end }}

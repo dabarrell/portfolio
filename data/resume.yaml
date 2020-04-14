@@ -13,7 +13,7 @@ sections:
             a Delivery Lead. As a product organisation, we have explored and adapted the Shape
             Up methodology to suit our company. As a Delivery Lead working within this methodology,
             I coordinate a team of engineers to see a 'shaped' idea through from pitch to delivery.
-            <br /><br />
+            +++
             I also continue to contribute to the Site Reliability Engineering practice, including
             internal infrastructure tooling and a construct library built with AWS's Cloud Development
             Kit (CDK).
@@ -42,7 +42,7 @@ sections:
             theoretical algorithms and frameworks developed by Data Scientists into
             production-quality and operational code, and for designing and delivering
             machine learning components of our product.
-            <br /><br />
+            +++
             From early 2019, I was Team Lead of the Comments team, responsible for all
             analytics and reporting related to comments left in the Culture Amp platform. In
             addition to leading a team of six, I contributed to the development of numerous
@@ -69,10 +69,10 @@ sections:
           text: |-
             Within HaBIC, I worked on the development of GRHANITE, a tool built for the extraction of primary
             care data in an ethical and privacy-sensitive manner, for the purpose of research.
-            <br /><br />
+            +++
             I undertook a major rewrite of the client-side codebase, released interfaces for new
             clinical management systems, and developed custom technical support tools.
-            <br /><br />
+            +++
             I administered the team's Git, and created the organisation's build servers and processes.
           tech: ["c#", "python", "ms sql", "git", "jira", "ci/cd"]
       - logoUrl: img/capgemini-logo.png
@@ -97,11 +97,13 @@ sections:
             various visualisation and digital fabrication techniques, we are able to
             provide parents with a new way to connect with their babies. These methods
             include extrapolating meshes from 2D ultrasound images, allowing us to
-            3D print tangible models.<br /><br />
+            3D print tangible models.
+            +++
             Access to the anonymised data obtained through this process also allows
             us to investigate how machine learning can be used to pick up and point
             out potential anomalies to radiologists, reducing the high rate of ultrasound
-            anomalies that currently go undetected.<br /><br />
+            anomalies that currently go undetected.
+            +++
             Teenyco won the $10,000 CMB Capital 'Best Startup' award at the Wade
             Institute's Final Pitch Night, as chosen by a panel including venture
             capitalists and established entrepreneurs.

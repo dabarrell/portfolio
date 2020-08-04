@@ -25,7 +25,11 @@
                         <span class="item-title">{{ .title }}</span>
                         {{ if .subtitle }}
                         <br />
+                        {{ if .link }}
+                        <a href="{{ .link }}">{{ .subtitle }}</a>
+                        {{ else }}
                         {{ .subtitle }}
+                        {{ end}}
                         {{ end }}
                     </p>
                 </div>

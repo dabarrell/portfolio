@@ -212,6 +212,11 @@ a img {
         @include font-size(16);
         color: $text-primary;
       }
+
+      a {
+        color: $text-secondary;
+        text-decoration: underline;
+      }
     }
   }
 }

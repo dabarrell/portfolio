@@ -5,14 +5,15 @@ sections:
       - logoUrl: img/ca-logo.png
         title: Delivery Lead/Senior Software Engineer
         subtitle: Culture Amp
+        link: https://www.cultureamp.com/
         dates: Mar 2020 - Present
         location: Melbourne, AUS
         info:
           text: |-
-            In early 2020, I was promoted to Senior Engineer, alongside responsibilities as
+            In early 2020, I was promoted to Senior Engineer, with continuing responsibilities as
             a Delivery Lead. As a product organisation, we have explored and adapted the Shape
             Up methodology to suit our company. As a Delivery Lead working within this methodology,
-            I led a team of engineers to see a 'shaped' idea through from pitch to delivery.
+            I lead a team of engineers to see a 'shaped' idea through from pitch to delivery.
             +++
             These projects include
             <ul>
@@ -24,16 +25,22 @@ sections:
             I also continue to contribute to the Site Reliability Engineering practice, including
             internal infrastructure tooling and a construct library built with AWS's Cloud Development
             Kit (CDK).
-          tech: ["python", "elixir", "kotlin", "ruby", "aws", "cdk", "sre", "event sourcing", "microservices"]
+          tech: ["python", "elixir", "kotlin", "ruby", "aws", "cdk", "sre", "event-sourcing", "microservices"]
       - logoUrl: img/ca-logo.png
         title: Team Lead/Machine Learning Engineer
         subtitle: Culture Amp
+        link: https://www.cultureamp.com/
         dates: Jun 2018 - Feb 2020
         location: Melbourne, AUS
         info:
           text: |-
+            Culture Amp is the leading employee engagement and performance platform. We give leaders insights
+            into their employee culture, allowing them to build on their strengths, and improve areas of opportunity.
+            With a primary focus on culture, organisations can create environments where their employees feel engaged,
+            which is the strongest leading indicator for the performance of the company as a whole.
+            +++
             I started off working on the Collective Intelligence team to draw out insights
-            from the results of our customer's surveys, to help those customers collect,
+            from the results of our customers' surveys, to help those customers collect,
             share and act on employee feedback. This included a responsibility for deploying
             theoretical algorithms and frameworks developed by Data Scientists into
             production-quality and operational code, and for designing and delivering
@@ -44,7 +51,7 @@ sections:
             addition to leading a team of six, I contributed to the development of numerous
             new features, including comment clustering and automatic comment translation. I
             was also responsible for the infrastructure of the team's services.
-          tech: ["python", "elixir", "kotlin", "ruby", "aws", "cdk", "sre", "event sourcing", "microservices"]
+          tech: ["python", "elixir", "kotlin", "ruby", "aws", "cdk", "sre", "event-sourcing", "microservices"]
       - logoUrl: img/uom-logo.jpg
         title: Software Developer
         subtitle: Health and Biomedical Informatics Centre
@@ -58,11 +65,12 @@ sections:
             I undertook a major rewrite of the client-side codebase, released interfaces for new
             clinical management systems, and developed custom technical support tools.
             +++
-            I administered the team's Git, and created the organisation's build servers and processes.
+            I administered the team's Git server, and created the organisation's build servers and processes.
           tech: ["c#", "python", "ms sql", "git", "jira", "ci/cd"]
       - logoUrl: img/capgemini-logo.png
         title: Senior Consultant (Contractor)
         subtitle: Capgemini
+        link: https://www.capgemini.com/
         dates: Jan 2018
         location: Melbourne, AUS
         info:
@@ -73,18 +81,19 @@ sections:
       - logoUrl: img/teenyco-logo.jpg
         title: Co-Founder & CTO
         subtitle: Teenyco
+        link: https://fbe.unimelb.edu.au/newsroom/Teenyco-the-birth-of-3D-printed-ultrasounds
         dates: Jul 2016 - Feb 2017
         location: Melbourne, AUS
         info:
           text: |-
-            Teenyco aims to improve ultrasound diagnostics in pregnancies, as well as
+            Teenyco aimed to improve ultrasound diagnostics in pregnancies, as well as
             foster an increased connection between parent and unborn child. Through
-            various visualisation and digital fabrication techniques, we are able to
-            provide parents with a new way to connect with their babies. These methods
-            include extrapolating meshes from 2D ultrasound images, allowing us to
-            3D print tangible models.
+            various visualisation and digital fabrication techniques, we aimed to
+            provide parents with a new way to connect with their babies, using methods
+            such mesh extrapolation from 2D ultrasound images, allowing 3D printed tangible
+            models to be produced.
             +++
-            Access to the anonymised data obtained through this process also allows
+            Access to the anonymised data obtained through this process also allowed
             us to investigate how machine learning can be used to pick up and point
             out potential anomalies to radiologists, reducing the high rate of ultrasound
             anomalies that currently go undetected.
@@ -120,6 +129,7 @@ sections:
       - logoUrl: img/oc-logo.jpg
         title: Software / Web Developer
         subtitle: Ormond College
+        link: https://www.ormond.unimelb.edu.au/
         dates: Jan 2015 - Dec 2015
         location: Melbourne, AUS
         info:
@@ -131,6 +141,7 @@ sections:
       - logoUrl: img/oc-logo.jpg
         title: AV Coordinator
         subtitle: Ormond College
+        link: https://www.ormond.unimelb.edu.au/
         dates: Feb 2013 - Dec 2014
         location: Melbourne, AUS
         info:
@@ -175,13 +186,14 @@ sections:
       - logoUrl: img/osmad-logo.png
         title: Secretary/Public Officer
         subtitle: OSMaD
+        link: https://www.osmad.com.au
         dates: 2019 - Present
         location: Melbourne, AUS
         info:
           text: |-
-            Elected executive of OSMaD, a community theatre company in Melbourne. In the role, I
-            have helped run the company, rewrite the constitution, and produce award-winning
-            theatrical productions.
+            Elected office-bearer of OSMaD, a community theatre company in Melbourne. In the role, I
+            am part of the executive managing the company and its $120k budget, have rewritten the
+            constitution, and have produced award-winning theatrical productions.
       - logoUrl: img/oc-logo.jpg
         title: Chair
         subtitle: Ormond College
@@ -202,15 +214,17 @@ sections:
             Mentored a team of high school students in a hackathon aimed at providing young girls
             with exposure to engineering careers. Created an IoT pill dispenser designed to improve
             adherence to drug regimens, placing second in the competition.
-      - title: Musical Director / Technical Director
+      - title: Musical Director / Theatre Technician
         subtitle: Various theatre companies
         dates: 2012 - 2017
         location: Melbourne, AUS
         info:
           text: |-
-            In these positions, I have worked with the cast and crew of over a dozen productions,
-            developing my leadership and interpersonal skills, as well as my ability to navigate
-            complex issues in a team. The diverse interests and individuals involved in artistic
-            teams often create difficult scenarios, which require careful leadership and creative
-            solutions. I have found the skills these experiences have given me complement my
+            In these positions with companies such as RMIT, OSMaD, and UMMTA, I have worked with the
+            cast and crew of over a dozen productions, developing my leadership and interpersonal skills,
+            as well as my ability to navigate complex issues in a team. The diverse interests and individuals
+            involved in artistic teams often create challenging scenarios, which require careful leadership
+            and creative solutions. I have found the skills these experiences have given me complement my
             technical leadership well.
+            +++
+            For more details, see my <a href="/creative">creative resume</a>.

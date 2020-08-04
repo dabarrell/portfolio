@@ -3,7 +3,7 @@ sections:
     id: work-experience
     items:
       - logoUrl: img/ca-logo.png
-        title: Delivery Lead/Senior Engineer
+        title: Delivery Lead/Senior Software Engineer
         subtitle: Culture Amp
         dates: Mar 2020 - Present
         location: Melbourne, AUS
@@ -12,23 +12,19 @@ sections:
             In early 2020, I was promoted to Senior Engineer, alongside responsibilities as
             a Delivery Lead. As a product organisation, we have explored and adapted the Shape
             Up methodology to suit our company. As a Delivery Lead working within this methodology,
-            I coordinate a team of engineers to see a 'shaped' idea through from pitch to delivery.
+            I led a team of engineers to see a 'shaped' idea through from pitch to delivery.
+            +++
+            These projects include
+            <ul>
+            <li>a Reporting API, allowing our users to access and analyse the results of their surveys</li>
+            <li>a rewrite of how we manage, translate and release survey templates across multiple data centres</li>
+            <li>a refresh of our comments reporting experience</li>
+            </ul>
             +++
             I also continue to contribute to the Site Reliability Engineering practice, including
             internal infrastructure tooling and a construct library built with AWS's Cloud Development
             Kit (CDK).
-          tech:
-            [
-              "python",
-              "elixir",
-              "kotlin",
-              "ruby",
-              "aws",
-              "cdk",
-              "sre",
-              "event sourcing",
-              "microservices",
-            ]
+          tech: ["python", "elixir", "kotlin", "ruby", "aws", "cdk", "sre", "event sourcing", "microservices"]
       - logoUrl: img/ca-logo.png
         title: Team Lead/Machine Learning Engineer
         subtitle: Culture Amp
@@ -48,18 +44,7 @@ sections:
             addition to leading a team of six, I contributed to the development of numerous
             new features, including comment clustering and automatic comment translation. I
             was also responsible for the infrastructure of the team's services.
-          tech:
-            [
-              "python",
-              "elixir",
-              "kotlin",
-              "ruby",
-              "aws",
-              "cdk",
-              "sre",
-              "event sourcing",
-              "microservices",
-            ]
+          tech: ["python", "elixir", "kotlin", "ruby", "aws", "cdk", "sre", "event sourcing", "microservices"]
       - logoUrl: img/uom-logo.jpg
         title: Software Developer
         subtitle: Health and Biomedical Informatics Centre

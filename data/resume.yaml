@@ -173,12 +173,12 @@ sections:
         location: Melbourne, AUS
         info:
           text: |-
-            Majoring in bassoon, with experience on piano, saxophones, clarinet,
+            Majoring in bassoon, with experience on piano, saxophone, clarinet,
             oboe and guitar, and in voice.
             <ul>
             <li>Principal Bassoon, University of Melbourne Orchestra</li>
             <li>Choral Director, Ormond College Choir</li>
-            <li>Musical Director, Ormond College Drama Club</li>
+            <li>Music Director, Ormond College Drama Club</li>
             </ul>
   - title: leadership
     id: leadership
@@ -214,7 +214,7 @@ sections:
             Mentored a team of high school students in a hackathon aimed at providing young girls
             with exposure to engineering careers. Created an IoT pill dispenser designed to improve
             adherence to drug regimens, placing second in the competition.
-      - title: Musical Director / Theatre Technician
+      - title: Music Director / Theatre Technician
         subtitle: Various theatre companies
         dates: 2012 - 2017
         location: Melbourne, AUS

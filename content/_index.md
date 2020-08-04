@@ -2,16 +2,8 @@
 draft: false
 title: David Barrell
 ---
-I am passionate about finding novel solutions to new problems, particularly in
-the sphere of computer science and software engineering. I enjoy experimenting
-with the constant stream of new tools, and am always looking to expand my skill
-base.
+I am passionate about finding novel solutions to new problems, particularly in software engineering. I am excited by clean APIs, well-structured code, novel software architecture, well-tuned CI/CD pipelines, and working with intelligent, thoughtful people.
 
-The pursuit of varied projects and opportunities has allowed me to build
-experience in a range of fields, from cluster computing and infrastructure
-engineering to web and mobile application design and development; each new project
-is a chance for me to try out new technologies, languages and tools. I am particularly
-interested in machine learning and sofware reliability engineering.
+I have built up experience in a range of areas, from infrastructure engineering, backend development and software architecture to pitching and delivering projects, but I thrive where I can work with a team of people who share my passions, whether I am contributing code, or leading a project’s delivery.
 
-Outside of work, I spend my time in the theatre, behind a music stand, or on
-the hockey field.
+Outside of work, I spend my time in the theatre, behind a music stand, or on the hockey field.

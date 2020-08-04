@@ -146,7 +146,7 @@ a img {
     }
 
     li:not(:last-child):after {
-      content: "//";
+      content: " // ";
       color: $text-secondary;
     }
   }

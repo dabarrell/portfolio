@@ -187,6 +187,16 @@ sections:
   - title: leadership
     id: leadership
     items:
+      - logoUrl: img/osmad-logo.png
+        title: Secretary/Public Officer
+        subtitle: OSMaD
+        dates: 2019 - Present
+        location: Melbourne, AUS
+        info:
+          text: |-
+            Elected executive of OSMaD, a community theatre company in Melbourne. In the role, I
+            have helped run the company, rewrite the constitution, and produce award-winning
+            theatrical productions.
       - logoUrl: img/oc-logo.jpg
         title: Chair
         subtitle: Ormond College

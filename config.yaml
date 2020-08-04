@@ -15,9 +15,9 @@ menu:
     - name: projects
       url: /projects
       weight: 2
-    - name: posts
-      url: /posts
-      weight: 3
+    # - name: posts
+    #   url: /posts
+    #   weight: 3
     - name: tech resume
       url: /resume
       weight: 4

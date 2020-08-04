@@ -6,7 +6,7 @@
     </div>
 </div>
 {{ range first 10 .Site.RegularPages }}
-{{ if eq .Type "posts" }}
+{{ if and (eq .Type "posts") (eq .Draft false) }}
 <h2><a href="{{ .Permalink }}">{{ .Title }}{{.Kind}}</a></h2>
 {{ end }}
 {{ end }}

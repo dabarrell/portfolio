@@ -1,4 +1,12 @@
 sections:
+  - title: engineering resume
+    description: |-
+      I am a Delivery Lead and Software Engineer, with a speciality in backend and infrastructure engineering.
+      +++
+      You can get in touch via the links in the sidebar. If you want to download a copy
+      of my resume, you can find one <a href="/docs/resume.pdf">here</a>.
+      +++
+      If you are more interested in my work in music and theatre, check out my <a href="/creative">creative resume</a>.
   - title: work experience
     id: work-experience
     items:

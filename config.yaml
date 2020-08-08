@@ -18,8 +18,8 @@ menu:
     # - name: posts
     #   url: /posts
     #   weight: 3
-    - name: tech resume
-      url: /resume
+    - name: engineering resume
+      url: /engineering
       weight: 4
     - name: creative resume
       url: /creative

@@ -1,6 +1,6 @@
 {{ define "main" }}
 <div class="resume">
-    {{ range $.Site.Data.resume.sections }}
+    {{ range $.Site.Data.engineering.sections }}
     <div id='{{ replace .title " " "-" | lower }}' class="section">
         <div class="row text-left">
             <div class="col-12">
@@ -9,6 +9,18 @@
                 </h1>
             </div>
         </div>
+
+        {{ if .description }}
+        <div class="row text-left">
+            <div class="col-12">
+                {{ range (split .description "+++") }}
+                <p>
+                    {{ . | safeHTML }}
+                </p>
+                {{ end }}
+            </div>
+        </div>
+        {{ end }}
 
         {{ range .items }}
         <div class="item">

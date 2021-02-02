@@ -1,8 +1,22 @@
 sections:
   - title: creative resume
     description: |-
-      Outside of work hours, I spend much of my time playing music and in the theatre. Listed
-      below is a selection of my creative and theatrical experience.
+      While software engineering provides plenty of entertainment at work, I spend my non-working hours moonlighting
+      as a Music Director, Technical Director, Stage Manager, and all-round theatre handyman. Alongside my degrees in
+      science and engineering, I studied a Diploma in Music at the University of Melbourne, majoring in Bassoon.
+      +++
+      My previous music direction credits include Spring Awakening (twice), Little Shop of Horrors (twice again!), Sunset Boulevard,
+      The Drowsy Chaperone, Heathers, and the Lyrebird Awards Ceremony. I have worked as a Music Supervisor and Conductor on
+      a number of smaller shows, as well as spending two years as the Choral Director of the Ormond Choir.
+      +++
+      I truly enjoy learning instruments, to the extent that my home is reminiscent of a high school music room. As an instrumentalist,
+      my strengths are bassoon, piano, and saxophone, though I am also proficient on bass, clarinet, oboe, and guitar, and am
+      always trying to expand my skills further.
+      +++
+      As a theatre tech, my speciality is in sound design/engineering, though I am experienced in stage management, set construction,
+      and lighting. I have a particular interest in keyboard programming, where sound design and music direction intersect.
+      +++
+      Listed below is a selection of my creative and theatrical experience.
   - title: accreditation
     items:
       - title: MD Professional Development Workshop
@@ -131,6 +145,14 @@ sections:
         organisation: Ormond College
   - title: instrumental
     items:
+      - title: Keys, Bass, Guitar, Reeds
+        year: 2020
+        show: Little Shop of Horrors
+        organisation: RMIT
+      - title: Keys
+        year: 2019
+        show: Spring Awakening
+        organisation: RMIT
       - title: Bassoon
         year: 2018
         show: Into the Woods
@@ -192,7 +214,7 @@ sections:
   - title: other
     items:
       - title: Secretary
-        year: 2019-20
+        year: 2019-21
         organisation: OSMaD
       - title: Producer
         year: 2015

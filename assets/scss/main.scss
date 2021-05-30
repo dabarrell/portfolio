@@ -65,15 +65,28 @@ h1:after {
 
 // Links
 a,
-a:hover,
 a:visited,
 a:active {
   color: $text-primary;
   text-decoration: none;
 }
 
+a:hover {
+  color: $text-primary;
+  text-decoration: underline;
+}
+
 a img {
   border: none;
+}
+
+// Images
+.content {
+  img {
+    @include center-block;
+    width: 80%;
+    margin-bottom: 20px;
+  }
 }
 
 .right {
@@ -268,5 +281,30 @@ a img {
         }
       }
     }
+  }
+}
+
+// Contact form
+.contact-form {
+  text-transform: lowercase;
+
+  .form-group {
+    min-height: 90px;
+
+    p {
+      margin: 0;
+    }
+  }
+
+  input,
+  textarea,
+  button {
+    @include line-height(20);
+    @include font-size(14);
+  }
+
+  button {
+    text-transform: lowercase;
+    margin-top: 20px;
   }
 }

@@ -1,5 +1,6 @@
 {{ define "main" }}
 <h1>{{ .Title }}</h1>
-<h2>{{ .Date.Format "2006-01-02" }}</h2>
-{{ .Content }}
+<div class="content">
+    {{ .Content }}
+</div>
 {{ end }}

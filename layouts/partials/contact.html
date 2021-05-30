@@ -1,0 +1,36 @@
+<form name="contact" class="contact-form width-normal" action="/submitted/" method="POST" data-netlify="true">
+    <input type="hidden" name="form-name" value="contact" />
+    <!-- Text input-->
+    <div class="form-group">
+        <label class="control-label" for="Name">Name *</label>
+        <div class="row">
+            <div class="col-6">
+                <input id="contact-form-name" name="Name" type="text" class="form-control input-md" required>
+                <p>First</p>
+            </div>
+            <div class="col-6">
+                <input id="contact-form-name" name="Name" type="text" class="form-control input-md" required>
+                <p>Last</p>
+            </div>
+        </div>
+    </div>
+    <!-- Text input-->
+    <div class="form-group">
+        <label class="control-label" for="Email">Email *</label>
+        <input id="contact-form-email" name="Email" type="email" class="form-control input-md" required>
+    </div>
+    <!-- Text input-->
+    <div class="form-group">
+        <label class="control-label" for="Subject">Subject *</label>
+        <input id="contact-form-subject" name="Subject" type="text" class="form-control input-md" required>
+    </div>
+    <!-- Textarea -->
+    <div class="form-group">
+        <label class="control-label" for="">Message *</label>
+        <textarea class="form-control" id="contact-form-message" name="Message" rows="8" required></textarea>
+    </div>
+    <!-- Button -->
+    <div class="form-submit">
+        <button type="submit" class="btn btn-secondary btn-lg" value="Submit" id="form-submit-button">Submit</button>
+    </div>
+</form>

@@ -24,3 +24,8 @@ menu:
     - name: creative resume
       url: /creative
       weight: 5
+    services:
+    - identifier: keys programming
+      name: keys programming
+      url: /keys-programming
+      weight: 1

@@ -24,20 +24,22 @@
             <div class="subtitle">
                 <p>
                     delivery lead
-                    <br/>
+                    <br />
                     senior software engineer
-                    <br/>
+                    <br />
                     music director
-                    <br/>
+                    <br />
                     technical director
                 </p>
             </div>
+            {{ $currentPage := . }}
+
+            {{ range .Site.Menus }}
             <div class="menu">
                 <ul>
-                    {{ $currentPage := . }}
-                    {{ range .Site.Menus.main }}
+                    {{ range . }}
                     {{ $linkedPage := ($.Site.GetPage .URL)}}
-                    {{/*  {{ if $currentPage.IsMenuCurrent "main" . }} */}}
+                    {{/* {{ if $currentPage.IsMenuCurrent "main" . }} */}}
                     {{ if eq $linkedPage $currentPage }}
                     <li class='active'>
                         <a href="javascript:;">
@@ -58,6 +60,8 @@
                     {{ end }}
                 </ul>
             </div>
+            {{ end }}
+
             <div class="socials">
                 <ul>
                     <li>

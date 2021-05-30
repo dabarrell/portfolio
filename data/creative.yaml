@@ -31,6 +31,10 @@ sections:
         organisation: AMEB
   - title: music direction
     items:
+      - title: Assistant Music Director
+        year: 2021
+        show: In The Heights
+        organisation: OCPAC
       - title: Music Director
         year: 2020
         show: Little Shop of Horrors
@@ -78,7 +82,7 @@ sections:
   - title: technical
     items:
       - title: Stage Manager
-        year: 2020
+        year: 2021
         show: The Scarlet Pimpernel
         organisation: OSMaD
       - title: Sound Designer

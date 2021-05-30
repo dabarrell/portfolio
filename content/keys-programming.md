@@ -18,7 +18,7 @@ Over the last decade, I have programmed keyboard patches for a number of shows, 
 
 I also offer these services for new shows, so even if the show you're after isn't listed below, please feel free to get in touch. In addition to programming, I can also offer hire of gear, including keyboards, interfaces, and Mainstage rigs.
 
-If you're interested in discussing further, reach out via the [contact page][contact].
+If you're interested in discussing further, reach out via the [contact][contact] page.
 
 [mainstage-example]: /img/mainstage-example.png "Mainstage"
 [contact]: /contact "Contact"

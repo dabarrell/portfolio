@@ -32,10 +32,12 @@
                     technical director
                 </p>
             </div>
+            {{ $currentPage := . }}
+
+            {{ range .Site.Menus }}
             <div class="menu">
                 <ul>
-                    {{ $currentPage := . }}
-                    {{ range .Site.Menus.main }}
+                    {{ range . }}
                     {{ $linkedPage := ($.Site.GetPage .URL)}}
                     {{/* {{ if $currentPage.IsMenuCurrent "main" . }} */}}
                     {{ if eq $linkedPage $currentPage }}
@@ -58,50 +60,8 @@
                     {{ end }}
                 </ul>
             </div>
-            <div class="menu">
-                <ul>
-                    {{ $currentPage := . }}
-                    {{ range .Site.Menus.services }}
-                    {{ $linkedPage := ($.Site.GetPage .URL)}}
-                    {{ if eq $linkedPage $currentPage }}
-                    <li class='active'>
-                        <a href="javascript:;">
-                            {{ .Pre }}
-                            <span>{{ .Name }}</span>
-                        </a>
-                    </li>
-                    {{ else }}
-                    {{ if and (not $linkedPage.Draft) (ne $linkedPage.String "nopPage") }}
-                    <li>
-                        <a href="{{ .URL }}">
-                            {{ .Pre }}
-                            <span>{{ .Name }}</span>
-                        </a>
-                    </li>
-                    {{ end }}
-                    {{ end }}
-                    {{ end }}
-                </ul>
-            </div>
-            <div class="menu">
-                <ul>
-                    {{ $currentPage := . }}
-                    {{ $linkedPage := ($.Site.GetPage "/contact")}}
-                    {{ if eq $linkedPage $currentPage }}
-                    <li class='active'>
-                        <a href="javascript:;">
-                            <span>contact</span>
-                        </a>
-                    </li>
-                    {{ else }}
-                    <li>
-                        <a href="/contact">
-                            <span>contact</span>
-                        </a>
-                    </li>
-                    {{ end }}
-                </ul>
-            </div>
+            {{ end }}
+
             <div class="socials">
                 <ul>
                     <li>

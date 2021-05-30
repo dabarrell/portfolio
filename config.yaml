@@ -4,10 +4,10 @@ enableGitInfo: true
 # googleAnalytics: ""
 
 permalinks:
-    posts: /:year/:month/:title/
+  posts: /:year/:month/:title/
 
 menu:
-    main:
+  a-main:
     - identifier: about
       name: about
       url: /
@@ -24,8 +24,13 @@ menu:
     - name: creative resume
       url: /creative
       weight: 5
-    services:
+  b-services:
     - identifier: keys programming
       name: keys programming
       url: /keys-programming
+      weight: 1
+  c-other:
+    - identifier: contact
+      name: contact
+      url: /contact
       weight: 1

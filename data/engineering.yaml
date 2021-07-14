@@ -49,32 +49,6 @@ sections:
             <li>the ability to automatically compare results against historical surveys across multiple dimensions</li>
             </ul>
           tech: ["python", "elixir", "kotlin", "ruby", "aws", "cdk", "sre", "event-sourcing", "microservices"]
-      - logoUrl: img/ca-logo.png
-        title: Team Lead/Engineer
-        subtitle: Culture Amp
-        link: https://www.cultureamp.com/
-        dates: Jun 2018 - Feb 2020
-        location: Melbourne, AUS
-        info:
-          text: |-
-            Culture Amp is the leading employee engagement and performance platform. We give leaders insights
-            into their employee culture, allowing them to build on their strengths, and improve areas of opportunity.
-            With a primary focus on culture, organisations can create environments where their employees feel engaged,
-            which is the strongest leading indicator for the performance of the company as a whole.
-            +++
-            I started off working on the Collective Intelligence team to draw out insights
-            from the results of our customers' surveys, to help those customers collect,
-            share and act on employee feedback. This included a responsibility for deploying
-            theoretical algorithms and frameworks developed by Data Scientists into
-            production-quality and operational code, and for designing and delivering
-            machine learning components of our product.
-            +++
-            From early 2019, I was Team Lead of the Comments team, responsible for all
-            analytics and reporting related to comments left in the Culture Amp platform. In
-            addition to leading a team of six, I contributed to the development of numerous
-            new features, including comment clustering and automatic comment translation. I
-            was also responsible for the infrastructure of the team's services.
-          tech: ["python", "elixir", "kotlin", "ruby", "aws", "cdk", "sre", "event-sourcing", "microservices"]
       - logoUrl: img/uom-logo.jpg
         title: Software Developer
         subtitle: Health and Biomedical Informatics Centre

@@ -25,8 +25,7 @@ sections:
             +++
             I began on the Collective Intelligence team, drawing insights out of our customers’ survey results in order
             to help them collect, share and act on employee feedback. Since then, I have led and contributed to projects
-            as a Team and Delivery Lead, including automated comment translation, rewrites of survey template management,
-            a user-consumable reporting API, and various infrastructure uplifts.
+            across the Engagement product as a Team and Delivery Lead.
             +++
             My current role as a Delivery Lead of a cross-functional team of 12 sees me working across the product
             lifecycle from discovery to release, with my team’s wellbeing and growth as a primary concern. As a Mentor,
@@ -36,17 +35,13 @@ sections:
             Engineering practice, handling infrastructure design and deployments for new services, as well as
             contributing to internal infrastructure tooling and a construct library built with AWS's Cloud Development Kit (CDK).
             +++
-            In early 2020, I was promoted to Senior Engineer, with continuing responsibilities as
-            a Delivery Lead. As a product organisation, we have explored and adapted the Shape
-            Up methodology to suit our company. As a Delivery Lead working within this methodology,
-            I lead a team of engineers to see a 'shaped' idea through from pitch to delivery.
-            +++
             Some of the projects I have led/contributed to include
             <ul>
             <li>a Reporting API, allowing our users to access and analyse the results of their surveys out of platform</li>
             <li>a rewrite of how we manage, translate and release survey templates across multiple data centres</li>
             <li>a refresh of our comments reporting experience</li>
             <li>the ability to automatically compare results against historical surveys across multiple dimensions</li>
+            <li>various infrastructure uplifts</li>
             </ul>
           tech: ["python", "elixir", "kotlin", "ruby", "aws", "cdk", "sre", "event-sourcing", "microservices"]
       - logoUrl: img/uom-logo.jpg

@@ -14,28 +14,43 @@ sections:
         title: Delivery Lead/Senior Software Engineer
         subtitle: Culture Amp
         link: https://www.cultureamp.com/
-        dates: Mar 2020 - Present
+        dates: Jun 2018 - Present
         location: Melbourne, AUS
         info:
           text: |-
+            Culture Amp is the leading employee engagement and performance platform. We give leaders insights
+            into their employee culture, allowing them to build on their strengths, and improve areas of opportunity.
+            With a primary focus on culture, organisations can create environments where their employees feel engaged,
+            which is the strongest leading indicator for the performance of the company as a whole.
+            +++
+            I began on the Collective Intelligence team, drawing insights out of our customers’ survey results in order
+            to help them collect, share and act on employee feedback. Since then, I have led and contributed to projects
+            as a Team and Delivery Lead, including automated comment translation, rewrites of survey template management,
+            a user-consumable reporting API, and various infrastructure uplifts.
+            +++
+            My current role as a Delivery Lead of a cross-functional team of 12 sees me working across the product
+            lifecycle from discovery to release, with my team’s wellbeing and growth as a primary concern. As a Mentor,
+            I am also responsible for the performance, coaching, and development of a handful of direct reports.
+            +++
+            I was promoted to Senior Engineer in early 2020, and continue my involvement with the Site Reliability
+            Engineering practice, handling infrastructure design and deployments for new services, as well as
+            contributing to internal infrastructure tooling and a construct library built with AWS's Cloud Development Kit (CDK).
+            +++
             In early 2020, I was promoted to Senior Engineer, with continuing responsibilities as
             a Delivery Lead. As a product organisation, we have explored and adapted the Shape
             Up methodology to suit our company. As a Delivery Lead working within this methodology,
             I lead a team of engineers to see a 'shaped' idea through from pitch to delivery.
             +++
-            These projects include
+            Some of the projects I have led/contributed to include
             <ul>
-            <li>a Reporting API, allowing our users to access and analyse the results of their surveys</li>
+            <li>a Reporting API, allowing our users to access and analyse the results of their surveys out of platform</li>
             <li>a rewrite of how we manage, translate and release survey templates across multiple data centres</li>
             <li>a refresh of our comments reporting experience</li>
+            <li>the ability to automatically compare results against historical surveys across multiple dimensions</li>
             </ul>
-            +++
-            I also continue to contribute to the Site Reliability Engineering practice, including
-            internal infrastructure tooling and a construct library built with AWS's Cloud Development
-            Kit (CDK).
           tech: ["python", "elixir", "kotlin", "ruby", "aws", "cdk", "sre", "event-sourcing", "microservices"]
       - logoUrl: img/ca-logo.png
-        title: Team Lead/Machine Learning Engineer
+        title: Team Lead/Engineer
         subtitle: Culture Amp
         link: https://www.cultureamp.com/
         dates: Jun 2018 - Feb 2020
@@ -163,7 +178,7 @@ sections:
       - logoUrl: img/uom-logo.jpg
         title: Master of Engineering (Software)
         subtitle: University of Melbourne
-        dates: 2016 - Present
+        dates: 2016 - 2019
         location: Melbourne, AUS
         info:
           text: |-

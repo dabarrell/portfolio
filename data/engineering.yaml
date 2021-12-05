@@ -1,7 +1,8 @@
 sections:
   - title: engineering resume
     description: |-
-      I am a Delivery Lead and Software Engineer, with a speciality in backend and infrastructure engineering.
+      I am a Senior Delivery Lead and Software Engineer, with a speciality in backend and infrastructure engineering, though
+      I’m comfortable working across the stack.
       +++
       You can get in touch via the links in the sidebar. If you want to download a copy
       of my resume, you can find one <a href="/docs/resume.pdf">here</a>.
@@ -11,7 +12,7 @@ sections:
     id: work-experience
     items:
       - logoUrl: img/ca-logo.png
-        title: Delivery Lead/Senior Software Engineer
+        title: Senior Delivery Lead/Software Engineer
         subtitle: Culture Amp
         link: https://www.cultureamp.com/
         dates: Jun 2018 - Present
@@ -27,7 +28,7 @@ sections:
             to help them collect, share and act on employee feedback. Since then, I have led and contributed to projects
             across the Engagement product as a Team and Delivery Lead.
             +++
-            My current role as a Delivery Lead of a cross-functional team of 12 sees me working across the product
+            My current role as a Senior Delivery Lead of a cross-functional team of 12 sees me collaborating across the product
             lifecycle from discovery to release, with my team’s wellbeing and growth as a primary concern. As a Mentor,
             I am also responsible for the performance, coaching, and development of a handful of direct reports.
             +++
@@ -43,7 +44,7 @@ sections:
             <li>the ability to automatically compare results against historical surveys across multiple dimensions</li>
             <li>various infrastructure uplifts</li>
             </ul>
-          tech: ["python", "elixir", "kotlin", "ruby", "aws", "cdk", "sre", "event-sourcing", "microservices"]
+          tech: ["ruby", "aws", "elixir", "python", "kotlin", "cdk", "sre", "event-sourcing", "microservices"]
       - logoUrl: img/uom-logo.jpg
         title: Software Developer
         subtitle: Health and Biomedical Informatics Centre

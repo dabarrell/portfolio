@@ -13,3 +13,13 @@ command = "hugo --gc --minify --buildDrafts -b $DEPLOY_PRIME_URL"
 
 [context.branch-deploy.environment]
 command = "hugo --gc --minify --buildDrafts -b $DEPLOY_PRIME_URL"
+
+[[redirects]]
+from = "/plausible/js/script.js"
+to = "https://plausible.io/js/plausible.js"
+status = 200
+
+[[redirects]]
+from = "/plausible/api/event"
+to = "https://plausible.io/api/event"
+status = 202

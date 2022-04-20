@@ -12,10 +12,22 @@ sections:
     id: work-experience
     items:
       - logoUrl: img/ca-logo.png
-        title: Senior Delivery Lead/Software Engineer
+        title: Senior Delivery Lead/Technical Lead
         subtitle: Culture Amp
         link: https://www.cultureamp.com/
-        dates: Jun 2018 - Present
+        dates: April 2022 - Present
+        location: Melbourne, AUS
+      - logoUrl: img/ca-logo.png
+        title: Senior Delivery Lead/Senior Engineer
+        subtitle: Culture Amp
+        link: https://www.cultureamp.com/
+        dates: Jan 2020 - March 2022
+        location: Melbourne, AUS
+      - logoUrl: img/ca-logo.png
+        title: Team Lead/Software Engineer
+        subtitle: Culture Amp
+        link: https://www.cultureamp.com/
+        dates: Jun 2018 - Dec 2019
         location: Melbourne, AUS
         info:
           text: |-
@@ -24,17 +36,19 @@ sections:
             With a primary focus on culture, organisations can create environments where their employees feel engaged,
             which is the strongest leading indicator for the performance of the company as a whole.
             +++
-            I began on the Collective Intelligence team, drawing insights out of our customers’ survey results in order
+            I began with a short stint on the Collective Intelligence team, drawing insights out of our customers’ survey results in order
             to help them collect, share and act on employee feedback. Since then, I have led and contributed to projects
             across the Engagement product as a Team and Delivery Lead.
             +++
-            My current role as a Senior Delivery Lead of a cross-functional team of 12 sees me collaborating across the product
-            lifecycle from discovery to release, with my team’s wellbeing and growth as a primary concern. As a Mentor,
-            I am also responsible for the performance, coaching, and development of a handful of direct reports.
+            In my current joint role as a Senior Delivery Lead and Technical Lead, I’ve worked with cross-functional teams of various
+            sizes (generally 6-12 people), collaborating across the product lifecycle from discovery to release, with my team’s wellbeing
+            and growth as a primary concern. As a Mentor, I am also responsible for the performance, coaching, and development of a handful
+            of direct reports.
             +++
-            I was promoted to Senior Engineer in early 2020, and continue my involvement with the Site Reliability
-            Engineering practice, handling infrastructure design and deployments for new services, as well as
-            contributing to internal infrastructure tooling and a construct library built with AWS's Cloud Development Kit (CDK).
+            I was promoted to Senior Engineer in early 2020 and Lead Engineer in early 2022, and continue my involvement with the
+            Site Reliability Engineering practice, handling infrastructure design and deployments for new services, providing SRE
+            guidance to other engineers, and contributing to internal infrastructure tooling and a construct library built with
+            AWS's Cloud Development Kit (CDK).
             +++
             Some of the projects I have led/contributed to include
             <ul>

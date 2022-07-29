@@ -31,14 +31,19 @@ sections:
         organisation: AMEB
   - title: music direction
     items:
+      - title: Assistant Music Director
+        info: Conductor/Keys 1
+        year: 2022
+        show: In The Heights
+        organisation: OCPAC
+      - title: Music Director
+        year: 2022
+        show: Richard Beveridge Memorial Concert
+        organisation: OSMaD
       - title: Music Director
         year: 2021
         show: All Together Now!
         organisation: OSMaD
-      - title: Assistant Music Director
-        year: 2021
-        show: In The Heights
-        organisation: OCPAC
       - title: Music Director
         year: 2020
         show: Little Shop of Horrors
@@ -86,9 +91,13 @@ sections:
   - title: technical
     items:
       - title: Stage Manager
-        year: 2021
+        year: 2022
         show: The Scarlet Pimpernel
         organisation: OSMaD
+      - title: Stage Manager
+        year: 2022
+        show: Jersey Boys
+        organisation: Windmill Theatre Company
       - title: Sound Designer
         year: 2020
         show: We Will Rock You
@@ -102,6 +111,10 @@ sections:
         year: 2019
         show: Dogfight
         organisation: Lightbox Productions
+      - title: Sound Design Mentor
+        year: 2019
+        show: Parade
+        organisation: UMMTA
       - title: Assistant Stage Manager
         year: 2018
         show: Les Misérables
@@ -113,6 +126,7 @@ sections:
       - title: Theatre Technician
         year: 2018-19
         organisation: Union House Theatre
+        info: Sound design specialisation
       - title: Set Construction Manager
         year: 2017
         show: Heathers
@@ -153,6 +167,13 @@ sections:
         organisation: Ormond College
   - title: instrumental
     items:
+      - title: Keys/Reeds Dep
+        year: Ongoing
+        organisation: Various
+      - title: Bassoon
+        year: 2022
+        show: West Side Story
+        organisation: Scotch College
       - title: Keys, Bass, Guitar, Reeds
         year: 2020
         show: Little Shop of Horrors

@@ -31,8 +31,8 @@ sections:
         organisation: AMEB
   - title: music direction
     items:
-      - title: Assistant Music Director
-        info: Conductor/Keys 1
+      - title: Band Director/Assistant Music Director
+        info: "Conductor/Keys 1 - Nominated: Best Music Direction, Music Theatre Guild of Victoria"
         year: 2022
         show: In The Heights
         organisation: OCPAC
@@ -64,7 +64,7 @@ sections:
         year: 2018
         show: The Drowsy Chaperone
         organisation: UMMTA
-        info: Awarded Most Outstanding Music Director/Band at the UHT Awards
+        info: "Awarded: Most Outstanding Music Director/Band, UHT Awards"
       - title: Assistant Music Director
         year: 2017
         show: Heathers
@@ -96,6 +96,10 @@ sections:
         organisation: OSMaD
       - title: Sound Designer
         year: 2022
+        show: Urinetown (dir. Mark Taylor)
+        organisation: Soundworks Productions
+      - title: Sound Designer
+        year: 2022
         show: Matilda
         organisation: Mount Lilydale Mercy College
       - title: Stage Manager
@@ -110,7 +114,7 @@ sections:
         year: 2019
         show: Miss Saigon
         organisation: OSMaD
-        info: Awarded Best Production (Musical) at the Lyrebird Awards
+        info: "Awarded: Best Production (Musical), Lyrebird Awards"
       - title: Sound Designer
         year: 2019
         show: Dogfight
@@ -119,7 +123,7 @@ sections:
         year: 2019
         show: Parade
         organisation: UMMTA
-      - title: Sound Design
+      - title: Sound Designer
         year: 2019
         show: Spring Awakening
         organisation: RMIT
@@ -127,6 +131,7 @@ sections:
         year: 2018
         show: Les Misérables
         organisation: OSMaD
+        info: "Awarded: Best Production (Musical), at the Lyrebird Awards"
       - title: Technical Director
         year: 2018
         show: The Witches of Eastwick
@@ -182,6 +187,10 @@ sections:
         year: 2022
         show: West Side Story
         organisation: Scotch College
+      - title: Keys
+        year: 2022
+        show: 13
+        organisation: Soundworks Productions
       - title: Keys, Bass, Guitar, Reeds
         year: 2020
         show: Little Shop of Horrors

@@ -32,7 +32,10 @@ sections:
   - title: music direction
     items:
       - title: Band Director/Assistant Music Director
-        info: "Conductor/Keys 1 - Nominated: Best Music Direction, Music Theatre Guild of Victoria"
+        info: |-
+          Conductor/Keys 1
+          +++
+          Nominated: Best Music Direction, Music Theatre Guild of Victoria
         year: 2022
         show: In The Heights
         organisation: OCPAC

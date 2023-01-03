@@ -36,6 +36,8 @@ sections:
           Conductor/Keys 1
           +++
           Awarded: Best Music Direction, Music Theatre Guild of Victoria
+          +++
+          Nominated: Best Music Direction, Lyrebird Awards
         year: 2022
         show: In The Heights
         organisation: OCPAC
@@ -53,7 +55,7 @@ sections:
         organisation: RMIT
       - title: Music Director
         year: 2020
-        show: Lyrebirds Awards Ceremony
+        show: Lyrebird Awards Ceremony
         organisation: OSMaD
       - title: Music Director
         year: 2019
@@ -134,7 +136,7 @@ sections:
         year: 2018
         show: Les Misérables
         organisation: OSMaD
-        info: "Awarded: Best Production (Musical), at the Lyrebird Awards"
+        info: "Awarded: Best Production (Musical), Lyrebird Awards"
       - title: Technical Director
         year: 2018
         show: The Witches of Eastwick

@@ -36,8 +36,9 @@
                 <div class="col-5 text-right ml-auto aux-info">
                     <p>
                         {{ if .show }}
-                        <span class="show-name">{{ .show }}</span>,
+                        <span class="show-name">{{ .show }}</span>{{ if .organisation }}, {{ end }}
                         {{ end }}
+
                         {{ .organisation }}
                     </p>
                 </div>

@@ -2,12 +2,13 @@ sections:
   - title: creative resume
     description: |-
       While software engineering provides plenty of entertainment at work, I spend my non-working hours moonlighting
-      as a Music Director, Technical Director, Stage Manager, and all-round theatre handyman. Alongside my degrees in
+      as a Music Director, Sound Designer, Technical Director, Stage Manager, and all-round theatre handyman. Alongside my degrees in
       science and engineering, I studied a Diploma in Music at the University of Melbourne, majoring in Bassoon.
       +++
-      My previous music direction credits include Spring Awakening (twice), Little Shop of Horrors (twice again!), Sunset Boulevard,
-      The Drowsy Chaperone, In The Heights, Heathers, and the Lyrebird Awards Ceremony. I have worked as a Music Supervisor and Conductor on
-      a number of smaller shows and concerts, as well as spending two years as the Choral Director of the Ormond Choir.
+      My previous music direction credits include Spring Awakening (twice), Little Shop of Horrors (twice again!), The Hunchback of Notre Dame,
+      Sunset Boulevard, The Drowsy Chaperone, Heathers, and the Lyrebird Awards Ceremony. In 2022, I had the pleasure of working on In The
+      Heights, for which I received Best Music Direction from both the Lyrebird Awards and the Music Theatre Guild of Victoria. I have worked
+      as a Music Supervisor and Conductor on a number of smaller shows and concerts, as well as spending two years as the Choral Director of the Ormond Choir.
       +++
       I truly enjoy learning instruments, to the extent that my home is reminiscent of a high school music room. My strengths are
       bassoon, piano, and saxophone, though I am also proficient on bass, clarinet, oboe, and guitar, and am
@@ -101,6 +102,25 @@ sections:
   - title: technical
     items:
       - title: Sound Designer
+        year: 2024
+        show: Parade (dir. Mark Taylor)
+        info: Seymour Centre, Sydney
+        organisation: Soundworks Productions
+      - title: Electronic Music Designer
+        info: Victorian Premiere, December 2023
+        year: "2023"
+        show: The Hunchback of Notre Dame
+        organisation: OSMaD
+      - title: Sound Designer
+        year: 2023
+        show: Parade (dir. Mark Taylor)
+        info: Chapel Off Chapel, Melbourne
+        organisation: Soundworks Productions
+      - title: Electronic Music Designer
+        year: 2023
+        show: Heathers
+        organisation: OCPAC
+      - title: Sound Designer
         year: 2023
         show: World of Musicals for Kids
         organisation: Windmill Theatre Company
@@ -111,6 +131,7 @@ sections:
       - title: Sound Designer
         year: 2022
         show: Urinetown (dir. Mark Taylor)
+        info: Chapel Off Chapel, Melbourne
         organisation: Soundworks Productions
       - title: Sound Designer
         year: 2022
@@ -197,6 +218,12 @@ sections:
       - title: Keys/Reeds Dep
         year: Ongoing
         organisation: Various
+      - title: Keys 1/Reeds
+        year: 2024
+        show: Lyrebird Awards
+      - title: Keys 1
+        year: 2023
+        show: Lyrebird Awards
       - title: Bassoon
         year: 2022
         show: West Side Story

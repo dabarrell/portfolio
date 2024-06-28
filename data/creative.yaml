@@ -33,7 +33,7 @@ sections:
   - title: music direction
     items:
       - title: Music Director
-        info: Victorian Premiere, December 2023
+        info: Conductor
         year: "2023"
         show: The Hunchback of Notre Dame
         organisation: OSMaD
@@ -43,6 +43,12 @@ sections:
               of the massed singing is a standout attraction of the season. Further musical splendour is heard from the orchestra of 14
               musicians, conducted with absolute confidence by Barrell.
             source: Simon Parris, Man in Chair
+          - text: |-
+              OSMaD's Victorian premiere of The Hunchback of Notre Dame will leave you breathless with its state of the art production,
+              worthy to grace the largest stages in the world! [...] Co-Music Directors David Barrell and Ned Dixon have created their own
+              'place of miracles' in the orchestra pit with their extremely talented group of musicians. This difficult and relentless
+              score is putty in their capable hands and sounds like the result of a much larger ensemble.
+            source: Jonathan Cox, Stage Whispers
       - title: Band Director/Assistant Music Director
         info: |-
           Conductor/Keys 1

@@ -284,6 +284,21 @@ a img {
         }
       }
     }
+
+    .quotes {
+      padding-bottom: 20px;
+
+      .quote-text {
+        white-space: normal;
+        font-style: italic;
+
+        .quote-source {
+          font-style:normal;
+          color: $text-primary;
+          padding-left: 10px;
+        }
+      }
+    }
   }
 }
 

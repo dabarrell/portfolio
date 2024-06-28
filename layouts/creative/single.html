@@ -54,6 +54,16 @@
                 </div>
             </div>
             {{ end }}
+            {{ range .quotes }}
+            <div class="row quotes">
+                <div class="offset-2 col-10 text-justify quote-text">
+                    {{ .text }}
+                    <span class="quote-source">
+                        – {{ .source }}
+                    </span>
+                </div>
+            </div>
+            {{ end }}
         </div>
         {{ end }}
     </div>

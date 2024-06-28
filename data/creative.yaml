@@ -37,6 +37,12 @@ sections:
         year: "2023"
         show: The Hunchback of Notre Dame
         organisation: OSMaD
+        quotes:
+          - text: |-
+              Music directors David Barrell and Ned Dixon have prepared the singers to a meticulously high standard such that the beauty
+              of the massed singing is a standout attraction of the season. Further musical splendour is heard from the orchestra of 14
+              musicians, conducted with absolute confidence by Barrell.
+            source: Simon Parris, Man in Chair
       - title: Band Director/Assistant Music Director
         info: |-
           Conductor/Keys 1
@@ -47,6 +53,11 @@ sections:
         year: 2022
         show: In The Heights
         organisation: OCPAC
+        quotes:
+          - text: |-
+              This production raises local theatre to new 'heights' and may just be the best amateur show I've seen in 45 years!
+              The consummate eleven piece band, under the Musical Direction of David Barrell, is tight and gives an impeccable performance.
+            source: Jonathan Cox, Stage Whispers
       - title: Music Director
         year: 2022
         show: Richard Beveridge Memorial Concert
@@ -124,6 +135,8 @@ sections:
         year: 2023
         show: World of Musicals for Kids
         organisation: Windmill Theatre Company
+        info: |-
+          Nominated: Best Sound in a Musical/Variety Under $40,000, Lyrebird Awards
       - title: Stage Manager
         year: 2022
         show: The Scarlet Pimpernel

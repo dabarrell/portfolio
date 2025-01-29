@@ -9,6 +9,7 @@ type: default
 
 Over the last decade, I have programmed keyboard patches for a number of shows, and offer these for hire.
 
+- The Hunchback of Notre Dame
 - In The Heights
 - Little Shop of Horrors
 - Spring Awakening

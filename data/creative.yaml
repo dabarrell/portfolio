@@ -34,6 +34,10 @@ sections:
     items:
       - title: Music Director
         info: Conductor
+        year: "2025"
+        show: Mamma Mia!
+        organisation: Windmill Theatre Company
+      - title: Music Director
         year: "2023"
         show: The Hunchback of Notre Dame
         organisation: OSMaD

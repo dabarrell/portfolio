@@ -8,13 +8,13 @@ permalinks:
 
 menu:
   a-main:
-    - identifier: about
-      name: about
-      url: /
-      weight: 1
-    - name: projects
-      url: /projects
-      weight: 2
+    # - identifier: about
+    #   name: about
+    #   url: /
+    #   weight: 1
+    # - name: projects
+    #   url: /projects
+    #   weight: 2
     # - name: posts
     #   url: /posts
     #   weight: 3

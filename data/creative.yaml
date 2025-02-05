@@ -38,6 +38,11 @@ sections:
         show: Mamma Mia!
         organisation: Windmill Theatre Company
       - title: Music Director
+        info: 24 Hour Musical
+        year: "2024"
+        show: "Popstars: The 90s Musical"
+        organisation: Windmill Theatre Company
+      - title: Music Director
         year: "2023"
         show: The Hunchback of Notre Dame
         organisation: OSMaD
@@ -117,9 +122,6 @@ sections:
         year: 2012
         show: Spring Awakening
         organisation: Ormond College
-      - title: Conductor
-        year: 2011
-        organisation: Scotch College Orchestra
   - title: technical
     items:
       - title: Technical Director

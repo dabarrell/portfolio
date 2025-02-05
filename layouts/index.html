@@ -1,95 +1,13 @@
 {{ define "main" }}
-<div class="resume">
-    {{ range $.Site.Data.engineering.sections }}
-    <div id='{{ replace .title " " "-" | lower }}' class="section">
-        <div class="row text-left">
-            <div class="col-12">
-                <h1>
-                    {{.title}}
-                </h1>
-            </div>
-        </div>
-
-        {{ if .description }}
-        <div class="row text-justify">
-            <div class="col-12">
-                {{ range (split .description "+++") }}
-                <p>
-                    {{ . | safeHTML }}
-                </p>
-                {{ end }}
-            </div>
-        </div>
-        {{ end }}
-
-        {{ range .items }}
-        <div class="item">
-            <div class="row">
-                <div class="col-auto">
-                    {{ if .logoUrl }}
-                    <img class="logo" src="{{ .logoUrl }}" alt="Logo">
-                    {{ else }}
-                    <span class="no-logo"></span>
-                    {{ end }}
-                </div>
-                <div class="col-5 text-left titles">
-                    <p>
-                        <span class="item-title">{{ .title }}</span>
-                        {{ if .subtitle }}
-                        <br />
-                        {{ if .link }}
-                        <a href="{{ .link }}">{{ .subtitle }}</a>
-                        {{ else }}
-                        {{ .subtitle }}
-                        {{ end}}
-                        {{ end }}
-                    </p>
-                </div>
-                <div class="col-5 text-right ml-auto aux-info">
-                    <p>
-                        {{ .dates }}
-                        {{ if .location }}
-                        <br />
-                        {{ .location }}
-                        {{ end }}
-                    </p>
-                </div>
-            </div>
-
-            {{ if .info }}
-            <div class="row info">
-                <div class="col-12 text-justify">
-                    {{ if .info.images}}
-                    <div class="slick-carousel">
-                        {{ range .info.images }}
-                        <div>
-                            <img src="{{ . }}">
-                        </div>
-                        {{ end }}
-                    </div>
-                    {{ end }}
-                    {{ if .info.text }}
-                    {{ range (split .info.text "+++") }}
-                    <p>
-                        {{ . | safeHTML }}
-                    </p>
-                    {{ end }}
-                    {{ end }}
-                    {{ if .info.tech }}
-                    <ul class="tech-list">
-                        {{ range .info.tech }}
-                        <li>
-                            {{ . }}
-                        </li>
-                        {{ end }}
-                    </ul>
-                    {{ end }}
-                </div>
-            </div>
-            {{ end }}
-        </div>
-        {{ end }}
+<h1>about</h1>
+<div class="row">
+    <div class="col-12 text-justify">
+        {{ .Content }}
     </div>
-    {{ end }}
 </div>
+{{ range first 10 .Site.RegularPages }}
+{{ if and (eq .Type "posts") (eq .Draft false) }}
+<h2><a href="{{ .Permalink }}">{{ .Title }}{{.Kind}}</a></h2>
+{{ end }}
+{{ end }}
 {{ end }}

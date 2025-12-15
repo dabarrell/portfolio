@@ -33,10 +33,29 @@ sections:
   - title: music direction
     items:
       - title: Music Director
-        info: Conductor
+        info: Conductor/Keys/Accordion
+        year: "2025"
+        show: Come From Away
+        organisation: OSMaD
+        quotes:
+          - text: |-
+              Music director David Barrell has assembled a team of talented musicians, all uniquely capable of playing the quirky instruments
+              required for the orchestration. Instrumental and vocal music are prepared to the highest standard, allowing the rollicking score
+              to be enjoyed at its best.
+            source: Simon Parris, Man in Chair
+      - title: Music Director
+        info: |-
+          Conductor/Keys 1
+          +++
+          Nominated: Best Music Direction, Lyrebird Awards
         year: "2025"
         show: Mamma Mia!
         organisation: Windmill Theatre Company
+        quotes:
+          - text: |-
+              David Barrell's musical direction was spot on, leading a band and ensemble that infuses every number with party-like energy.
+              The sound is crisp, the harmonies are rich, and ABBA’s music has never sounded better.
+            source: Fergus Rann, TheTheatre.au
       - title: Music Director
         info: 24 Hour Musical
         year: "2024"
@@ -124,6 +143,10 @@ sections:
         organisation: Ormond College
   - title: technical
     items:
+      - title: Electronic Music Designer
+        year: "2025"
+        show: Come From Away
+        organisation: OSMaD
       - title: Technical Director
         year: 2024
         show: The Addams Family

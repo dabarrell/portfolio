@@ -143,6 +143,11 @@ sections:
         organisation: Ormond College
   - title: technical
     items:
+      - title: Sound Operator
+        year: 2026
+        show: "& Juliet"
+        info: Bunjil Place
+        organisation: Windmill Theatre Company
       - title: Electronic Music Designer
         year: "2025"
         show: Come From Away

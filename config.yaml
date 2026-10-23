@@ -3,6 +3,12 @@ title: "David Barrell"
 enableGitInfo: true
 # googleAnalytics: ""
 
+params:
+  posthog:
+    # Public project API key (safe to commit). Only loads when HUGO_ENV=production.
+    key: "phc_um5FEHQAhQhyxw39AC49hxq8Qpf4kDLur8msg5i8YmSS"
+    uiHost: "https://us.posthog.com"
+
 permalinks:
   posts: /:year/:month/:title/
 
